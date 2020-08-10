@@ -1,0 +1,101 @@
+## v1.0: The start of something new, the return of VoidMinerPE. The all-awaited server you've all been waiting for is finally here!
+
+## This update brings back VoidMinerPE network. At the moment, this'll only include SkyBlock. We may release more servers in the future (if popularity is decent).
+
+- Added a new gamemode: SkyBlock Adventure. Still not released yet.
+- Added basic / certain MCMMO's.
+- Added Mob AI functioning - //todo work on Dungeons next with customized health!
+- Added /farm warp - This warp allows you to break down wood which gives you things, and some leaves too. This would be for later-uses with saplings.
+- Added Ore generator; But this time, it's something very unique - No more requiring hard and very advanced water sources, no, no, no! None of that. We've introduced our own ore generation system, where you can place a glowing obsidian on your island, and just like that, it'll spawn cobblestone, and chances of retrieving ores.
+- GlowingObsidian is now craftable. All you need, is planks, and wood. Just put the wood in the middle, whilst you add Planks to everything except the middle. You will now get GlowingObsidian. ;D
+- You can no longer break grass or dirt blocks on your island, unless you have a shovel to expand this.
+- Added Skill Points; You can levelup your skills, which you can use later on to buy upgrades and perks using /enchanter.
+- Added /enchanter; Brings a chest GUI. How this works - When you type /enchanter, a Chest GUI will popup. Firstly, you'll have to verify what tool you want to upgrade, and add it to the Chest's inventory when it prompts you. After that, you have a list of upgrades you can use using Skill points. At the moment, we only have one upgrade, which is duplication. Duplication goes up to the max 6. We may decrease this in the upcoming future, as it's still a WIP.
+- Added experience tools; How this works: You can use Tool experience to upgrade your skill level, which can be used later on using /enchanter to upgrade your tools.
+- Added Item transportation system. How this works: When you're on your island, you can drop an item from your island, and it'll teleport to your island spawn point. How great is that?
+- Added anti-Void.
+- Dropped items will now constantly teleport to the island, even if it's in a constant loop. This would only happen if the island has no blocks above the spawnpoint. So you won't lose your items anymore, unless you log off. We may plan on fixing this if possible.
+- Leaves no longer decay.
+- Leaves will now turn to Lime wool in /farm.
+- Wood will now turn into planks properly.
+- Use getVanillaName() to detect the vanilla minecraft name of an item.
+- When interacting with an enchantment table, it'll now open the Enchanter GUI.
+- Use repeating task on player join to detect ItemTeleport(), but only use it once.
+- Added Server Captcha to SkyBlock Season 2
+- Add enderman teleport sound to Item teleportation system.
+- Fixed a lot of broken issues.
+- Do not randomize seeds in the world "farm" upon every server restart. Use 1 so spawn point's always the same.
+- Fixed crash when breaking blocks using other items that are not tools.
+- Added /guide - Shows you your profile information along with settings. - WIP, still need to complete.
+- You can now interact with the book in your inventory; Will fix more things soon.
+- Added Island chat. Simply type /guide, and then click "Menu: Settings", and click "Chat feed", which will toggle on/off island chat.
+- Added Item dropping option to your island.
+- /farm no longer suffocates you.
+- Added Ranks to the server.
+- Added the following 4 new donator ranks in order:
+* Islander
+* Mythic
+* Legendary
+* Void
+
+- Added {island_level} variable to Chat formatting.
+- Fixed crash upon level up.
+- Fixed issues, where the level-up message would constantly display, and the EXP wouldn't go above zero.
+- Swords and other items no longer count as "Experience tools", since that'd make no sense.
+- Added basic Fishing and Fighting MCMMO (Untested).
+- Island settings currently now work as expected.
+- Item dropping will now disable properly if the Item Dropping option is set to false AKA off.
+- Fixed crash upon player join.
+- Fixed crash when attempting to chat.
+- Tools now receive damage when in /farm. Before, tools wouldn't take any damage at all.
+- Changed-up HotBar Crystal.
+- When turning on Hotbar Crystal, it'll now be in your inventory to use to open the SkyBlock Guide. With this, you won't be able to take or transaction the Crystal out of your inventory. To disable this, use /guide or interact with the item, click on "Menu: Settings", and then click on "Hotbar Crystal" item.
+- I’ve decided to completely reset the versions and the seasons due to different server name. It’ll now be “Season 1 / V1 UPCOMING UPDATE.”
+- Added mining world.
+- Hotbar crystal will now save into the appropriate data folder, instead of code-saving, which was very poor.
+- Added Crusher menu. How this works: You can crush an item that has the option to crush, where you can crush them, basically turning them into different items. Yes, they have specific chances of them.
+- Added Compost Menu - How this works: You can compost an farming item and turn them into different items. 
+- Added Brewer menu - How this works: You can receive Potions (as a very rare chance) in Compost menu. You can use these potions to buy rarites / tiers of potions. The higher rarity you choose, the more potions it’ll cost you. With potions being potions, they’re custom potions, and can be used to do custom events such as: Absorb 250 damage, strength, overpowered regeneration, and more.
+- Added skills menu. Type /skills or open it using the guide to see your skills information.
+- Skills menu complete.
+- Added crafting skills and leveling-up.
+- Added Fight skills.
+- Added mining skills.
+- Added display tags for “Primary skills”, and “Secondary skills” to /skills. Essentially, what this does, and the differences between the two, is:
+* Primary Skills - This basically means your main skills.
+* Secondary skills are a sub-category of the main skills. So for example, Fighting skill is the primary skill, and Sword skill is a secondary skill of Fighting because they’re both related, and are related skills. All related skills to the primary skills are classed as “Secondary skill”.
+
+- Added island chat, you can go to settings, and toggle “Island chat”. You can then talk in island chat, which will be associated with all your island members whom can see this chat.
+- Added mining world. This will be where you can mine stone, ores, and anything that relates to mining and caves.
+- Stone and diorite now turn into bedrock when broken. Keep in mind - They auto regenerate into their appropriate form after 1 minute after block being broken.
+- Added auto-regenerations to Mining world.
+- You now have to level-up your mining skill to mine ores. All was explained in the Mining levels video.
+- Added Encanter to The Guide.
+- Added Brewer to the guide.
+- Added Crusher to the guide.
+- Added Composter to the guide.
+- Added dungeons to the server (A WIP).
+- Added dungeons world.
+- Mobs are now faster depending on your dungeon level. 
+
+How does dungeons work?
+Basically, with dungeons, there’ll be levels. Each level has their own dungeons. Progressively, the dungeons will be harder, as you go upto higher levels. The more dungeon levels you progress through your adventure, the more harder each boss will be. Increasing boss hearts, along with the speed of the mobs and bosses. Once you’ve killed a boss, you will automatically be teleported to the next dungeon level, and you will grant access to the next dungeon level warp. Soon, I plan to add boss drops as well as some rewards. Still are unknown as of yet.
+
+## In english
+It’ll be like a PVE feel of things, in which you don’t see much nowadays for MCPE.
+
+
+- Fixed random server crashes.
+- Do not check for worlds as a task.
+- Item teleportation now works below the Y coordinates.
+- Added Quest tier system. How this works: Each tier has its own quests inside it. All you need to do, is complete 4 tier sets of quests (since 4 is the max). to earn a reward. The reward hasn't been decided yet.
+- Added /quest.
+- Fixed crashes when using certain items to break blocks.
+- Mobs no longer auto spawn, due to lag.
+- Fixed quests system from breaking.
+- Fixed some quests from not functioning, therefore you being stuck.
+- Fixed a major exploit, where you could mine any block during the quest, and it'd still give you the amounts you've done.
+- Added "Quest status" hotbar, where if you start a quest, it'll say "Quest Status: 0/64" as an example. This is so you can keep track of how much you're currently at and within the maximum show displays too.
+- You can no longer receive Tier points for placing and breaking cobblestone. This is simply to prevent abuse of the quest system. You'll have to mine for it instead!
+- Fixed a major dupe, where the tier points will double your blocks. This shouldn't do that, and is unacceptable.
+- Reformatted the code, and fixed-up a lot of silly and useless issues, and bugs that we didn't need.
