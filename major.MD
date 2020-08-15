@@ -126,3 +126,4 @@ Essentially it's apart of the farming skill, but still folds as its own category
 This skill will allow you to breed breedable mobs (as seen in vanilla), and once breeded, your Breeding skill will level-up. We plan to add a few more primary and sub skills in the future, But this is just the beginnging.
 - Added checks before player Spawned is executed (AKA Player Join). This should prevent anymore server crashes later on.
 - Fixed typo with the main priority checks.
+- Added a way to find out how many more Skill XP you need to go to the next level to /skills.
