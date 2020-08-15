@@ -99,3 +99,30 @@ It’ll be like a PVE feel of things, in which you don’t see much nowadays for
 - You can no longer receive Tier points for placing and breaking cobblestone. This is simply to prevent abuse of the quest system. You'll have to mine for it instead!
 - Fixed a major dupe, where the tier points will double your blocks. This shouldn't do that, and is unacceptable.
 - Reformatted the code, and fixed-up a lot of silly and useless issues, and bugs that we didn't need.
+- Creepers no longer despawn after they explode - This is one of the funny features I've added to ensure creepers DO NOT despawn. The only way you can really kill them, is by hitting them to the void. Not sure why the knockback is broken on them, but that should hopefully be fixed soon.
+- Added Item Frames flag, and Added ArmorStand protection.
+- Protected Fishing world to ensure no one griefs it, and in anyway, in case if we forget later on.
+- Updated /guide menu - Added some missing names to each of the block/item within the menu. Soon, I plan to make it so you can teleport to certain warps in /guide. (:
+- You can no longer rotate or break item frames in protected areas. Yes, I had to code this within the code its self, not using /rg.
+- You can no longer: Interact with Armor stands, and break armor stands. Since Breaking Armor Stands relies on EntityDamage() function, not BlockBreak() function.
+- Added "PVE" world, where you can fight mobs, and level-up your skill.
+- Added Shears Skill! You can shear sheep using "Shears", and gain Skill XP from it.
+- Renamed "Excavation" to "Excavating" in all of our data, and server-side.
+- Fixed item drops for ores.
+- Added Ore regeneration every 60 seconds.
+- All ore drops will now go directly straight into your inventory.
+- Block Break Particles for Ores are no longer visible. This is due to the Block regeneration system in the Mining world.
+- Fixed crash when mining Nether quartz ore.
+- You can now receive XP when breaking Coal Ore, as you'd normally do in vanilla, except it'll be direct, not indirect (as in drops on the floor).
+- Fixed major crash with certain skills.
+- Every time a mob spawn, it'll now state the nametag, and levels of each mob. The difference between Dungeons and PvE, is with dungeons, mobs spawn specifically the Dungeon levels, times that. With PvE World, mobs will spawn with randomized levels, and health. The higher the mob level, the higher health it'll be.
+- Added new Primary skill: Herbalism.
+
+## What does the Herbalism Skill do?
+Essentially it's apart of the farming skill, but still folds as its own category because of the differences between its purposes. Herbalism can double your drops within crops and growable items. The higher skill level you level-up your Herbalism, the higher the drops.
+- Added Primary skill: Breeding.
+
+## What does Breeding Skill do?
+This skill will allow you to breed breedable mobs (as seen in vanilla), and once breeded, your Breeding skill will level-up. We plan to add a few more primary and sub skills in the future, But this is just the beginnging.
+- Added checks before player Spawned is executed (AKA Player Join). This should prevent anymore server crashes later on.
+- Fixed typo with the main priority checks.
