@@ -127,3 +127,36 @@ This skill will allow you to breed breedable mobs (as seen in vanilla), and once
 - Added checks before player Spawned is executed (AKA Player Join). This should prevent anymore server crashes later on.
 - Fixed typo with the main priority checks.
 - Added a way to find out how many more Skill XP you need to go to the next level to /skills.
+- Added new Primary Skill: Magic.
+
+## How this works?
+You can obtain magic skill by using crushing table, which can be used in /guide. We may add more ways of obtaining Magic skill soon, but this is the start of it.
+
+- Added new Primary Skill: Alchemy.
+
+## How this works?
+You can obtain Alchemy skill by using Brewing menu. Once you've bought potions, your Alchemy skill will obtain Experience.
+
+- Added Secondary Skill: Crushing.
+
+## How this works?
+You can obtain and receive Experience from Crushing skill from the Crushing Table menu. The more you use it, the more experience it'll level you up as.
+
+- Reorganized /skills menu, made Primary skills from Row 1 - 2, and the rest (from 3rd row), and below.
+- Skill levels are now worth it - You can now receive Money from leveling up. The higher your skill level is, the more money you'll receive.
+- Added Island Settings GUI.
+- Added an error message for those that attempt to use Island settings GUI in the Menu settings, but it wouldn't work.
+- Updated / changed "must be an island leader" message to suit the non leaders needs.
+- Fixed crash when opening Island settings.
+- Fixed crash when another island player that is on your island / a random player joins, and whilst you're on the island, this would lead the server to cause an error AKA crash.
+- Made warps functional in /guide.
+- Added /pve - Teleports to the PvE World.
+- Added /mines - Teleports to the Mines world.
+- Added alias command for /farm: /farms.
+- Added /crusher
+- Added /composter
+- Added /brewer
+- Added /spawn.
+- Added Quests Menu to /guide.
+- Added Island teleportation to /guide.
+- Renamed Potion "Speed" to "Absorption" in /brewer.
