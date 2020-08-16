@@ -160,3 +160,13 @@ You can obtain and receive Experience from Crushing skill from the Crushing Tabl
 - Added Quests Menu to /guide.
 - Added Island teleportation to /guide.
 - Renamed Potion "Speed" to "Absorption" in /brewer.
+- Added functional Shields to the server. One of the #1 servers to offer actual vanilla shields.
+- Added new Secondary Skill: Shield.
+
+## How this skill works?
+The shield skill can be accessed by using a skill on your off hand, functionality. The more times you use the shield, the more levels and experience you'll receive.
+
+- Updated /skills to add Unarmed skill (as a secondary skill).
+- Fixed Unarmed skill becoming broken, and unusable. 
+- Added more checks to ensure server doesn't crash (There were more checks I hadn't yet added to the server). But that should all be fixed. If more has been found, we will patch them ASAP.
+- Fixed Health auto regeneration problems.
