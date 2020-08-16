@@ -170,3 +170,4 @@ The shield skill can be accessed by using a skill on your off hand, functionalit
 - Fixed Unarmed skill becoming broken, and unusable. 
 - Added more checks to ensure server doesn't crash (There were more checks I hadn't yet added to the server). But that should all be fixed. If more has been found, we will patch them ASAP.
 - Fixed Health auto regeneration problems.
+- Fixed a lot of crashes when doing certain actions. This would only happen in the default world because the core would think that world is a island / skyblock world.
