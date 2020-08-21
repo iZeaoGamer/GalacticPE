@@ -196,7 +196,7 @@ You can obtain the Pumpkin skill by using Pumpkin seeds in farmland, which will 
 - Added spawners to /farms, making it so you can grind neutral mobs.
 - Fixed always being able to receive gold balance, since it's meant to require a chance for it. This includes: The click sound after you've picked up the gold loot (If chances are valid).
 - Added Invisible bedrock around the farm warp so no one dies, by escaping the warp.
-- Fixed Farm build from turning stone bricks into invisible bedrock.(edited)
+- Fixed Farm build from turning stone bricks into invisible bedrock.
 - Fixed clicksound constantly reappearing after an gold ingot had dropped from a mob, and it'd keep ticking until you rejoin. This included potential dupes with Gold balance.
 - Added /dungeons - ALPHA
 - Added Basic implementation for Party system.
