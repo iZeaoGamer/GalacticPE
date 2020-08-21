@@ -173,16 +173,16 @@ The shield skill can be accessed by using a skill on your off hand, functionalit
 - Fixed a lot of crashes when doing certain actions. This would only happen in the default world because the core would think that world is a island / skyblock world.
 - Added new Primary Skill: Defense.
 
-How this works?
+## How this works?
 This may change in the future, but currently, you can obtain Defense skill by placing fences.
 
-NOTE
+## NOTE
 If you attempt to break fences after it was placed, it'll add back the needed XP, and remove Experience by 1. This is to prevent further-more abuse.
 
 - Moved Excavating Skill to Primary Skill.
 - Added Secondary Skill: Nether Wart.
 
-How this works?
+## How this works?
 You can obtain the Nether wart skill by farming Nether warts using Soulsand. If you break the nether wart plant, you'll then receive Experience, leading to Skill levels.
 
 - Added Secondary Skill: Pumpkin.
