@@ -171,3 +171,64 @@ The shield skill can be accessed by using a skill on your off hand, functionalit
 - Added more checks to ensure server doesn't crash (There were more checks I hadn't yet added to the server). But that should all be fixed. If more has been found, we will patch them ASAP.
 - Fixed Health auto regeneration problems.
 - Fixed a lot of crashes when doing certain actions. This would only happen in the default world because the core would think that world is a island / skyblock world.
+- Added new Primary Skill: Defense.
+
+How this works?
+This may change in the future, but currently, you can obtain Defense skill by placing fences.
+
+NOTE
+If you attempt to break fences after it was placed, it'll add back the needed XP, and remove Experience by 1. This is to prevent further-more abuse.
+
+- Moved Excavating Skill to Primary Skill.
+- Added Secondary Skill: Nether Wart.
+
+How this works?
+You can obtain the Nether wart skill by farming Nether warts using Soulsand. If you break the nether wart plant, you'll then receive Experience, leading to Skill levels.
+
+- Added Secondary Skill: Pumpkin.
+
+## How this works?
+You can obtain the Pumpkin skill by using Pumpkin seeds in farmland, which will later on grow Pumpkins for you. If you break it, you'll be able to obtain experience.
+- Added auto growth farms in /farms warp.
+- Added new warp: Farms - Thanks to @MYT | Lucifier for making this!
+- Trees now automatically regenerate back to their normal selves after a while.
+- Farms now automatically regenerate back to their normal selves after a while.
+- Added spawners to /farms, making it so you can grind neutral mobs.
+- Fixed always being able to receive gold balance, since it's meant to require a chance for it. This includes: The click sound after you've picked up the gold loot (If chances are valid).
+- Added Invisible bedrock around the farm warp so no one dies, by escaping the warp.
+- Fixed Farm build from turning stone bricks into invisible bedrock.(edited)
+- Fixed clicksound constantly reappearing after an gold ingot had dropped from a mob, and it'd keep ticking until you rejoin. This included potential dupes with Gold balance.
+- Added /dungeons - ALPHA
+- Added Basic implementation for Party system.
+- You can now get more party slots by donating to the server. (Store will be up soon along with its followed perks).
+- Party is a UI form. Still currently in ALPHA, and issues may arise with this. (Already seen one issue, which we plan to fix before release).
+- You can no longer warp to dungeons unless you meet the following conditions:
+* You must create a party.
+* You must have atleast 3 party members before warping to it.
+
+- Farms in /farms will now automatically grow to full size after breakage once 30 seconds is up. Before, crops would start back to small size, and would take forever to grow.
+- Added Auction House. You can type /ah for a list of useful auction house commands.
+- Added Minions to the server. (In ALPHA, will revamp soon).
+- Added /ms - MinionShop.
+- Fixed crash upon executing /ms - MinionShop.
+
+## NOTE
+We plan to add more minion types soon.
+
+- Fixed crash when inviting a player to the party.
+- Added more party options.
+- Added donator increased party slots system. 
+## How this works?
+If you’re a donator, you will receive more party slots, which will mean more friends can play with you.
+
+- Added Anti-Fall system. How this works?
+If you're in the spawn level, and you go below 199 Y coordinates, it'll automatically teleport you to spawn. It's like anti-void, but above ground.
+- Added server captcha bypass for opped players only. Suggested by @EST | Tome, thanks!
+- Added auto restart system.
+- Added /restart command - Shows a list of restart commands you can use.
+- Block Breaking in farms and mines will now be disabled 60 seconds before the server restarts. This is to prevent issues caused due to a block reset.
+- Tweaked Mines regeneration time to 5 seconds after breakage.
+- Tweaked Farms regeneration time to 3 seconds after breakage.
+- Added missing leaves ID and meta to the automatic regeneration system.
+- Fixed Minions from displaying ores in the chest, rather than actual drops. For example: Before, Coal ore would drop Coal ore, and put it in the chest. Now, it'll pass the coal ore drops to the chest, which would be Coal.
+- Mobs can no longer destroy farms in /farms.
