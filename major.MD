@@ -232,3 +232,178 @@ If you're in the spawn level, and you go below 199 Y coordinates, it'll automati
 - Added missing leaves ID and meta to the automatic regeneration system.
 - Fixed Minions from displaying ores in the chest, rather than actual drops. For example: Before, Coal ore would drop Coal ore, and put it in the chest. Now, it'll pass the coal ore drops to the chest, which would be Coal.
 - Mobs can no longer destroy farms in /farms.
+- Added /tpa
+- Made the server automatically save every 5 minutes.
+- Added new command usage: /tpa cancel. This is what most servers don't have. Simply, if you accidentally teleport to someone, you can always cancel it without them actually accepting it, and then getting worried. 
+- Added new command usage: /tpa here - This command will allow you to ask a teleportation to the player to the requester.
+- Added shortened commands: /gmc, /gms, /gma, and /gmspc
+- Added new command: /thru - Allows you to teleport through a block.
+- Added new command: /realname - Allows yourself to identify who the user is being hidden on.
+- Added Dungeon bosses and mobs.
+- Dungeon Bosses and Mobs are now correctly setup.
+- Added /dungeons <level> to teleport to the specific dungeon level. Obviously, if you don't have enough dungeon levels to go there, it won't let you.
+- Added /broadcast.
+- Added /clearinventory
+- Added /feed
+- Added /freeze
+- Added /reply 
+- Added /tell (our custom version).
+- Added /sc - StaffChat command.
+- Added /seedevice.
+-Added /mban
+- Added /pban
+- Added /mmute
+- Added /mwarn AKA /warn
+- Fixed Mob spawning issues.
+- Fixed crash when using /seedevice.
+- Fixed crash when using /tell.
+- Fixed crash when using /reply.
+- Protected all server builds! This is so we can get prepared for beta testing OP SkyBlock Season 1.
+- All warp teleportation are now instant - We'd like to get rid of delayed teleportation so they can all be instant, since who doesn't like Teleport delays here?? I especially don't. ;P
+- Added /fly.
+- /fly can only be executed on your island.
+- /fly can only be executed for Donators: Mythic and above, and staff members, but they can only execute it on your island.
+- Added Quest tier Shop system.
+
+## How this works?
+Every shop category is a quest tier (upto 4). You can complete quests and unlock a quest, which will then unlock a tier shop category for quests, basically unlocking items and blocks within that quest tier category. I've told you, we're unique. You don't see much servers that offer this.
+
+- Fixed Dungeon damages not taking any damage at all.
+- Fixed /dungeons 5 message issue.
+
+- Island not generating bug - Big props to @EST| Hannibal Lecter for reporting this! This was a bug that is/was very serious, and we think the cause would be because islands are in the same world, and the limit to islands per world is 8. We’ve increased that amount to ensure this issue won’t happen again. Basically, the island generation most likely couldn’t generate an island that can’t be used due to island limits.
+
+- NEW Server Tutorial.
+This is still a WIP, so there may be issues, but today, we have added a way so when you first join the server, it’ll automatically mark you as “Tutorialed”, which means it’ll teleport around the server to show you what skyblock adventure has, and how unique it is.
+
+- Fixed an issue, where you can duplicate any building block and add it to your inventory (Farming + Mining worlds).
+- Added new warp: Fishing.
+- You can now go to Fishing warp, where you can use your fishing rod to levelup your skill. Big thanks to @GMT+3 | ✨ŁiŁsky•✨ for building it!
+- Added new farm location - Built by @GMT+3 | ✨ŁiŁsky•✨, so big shout outs to her!
+- Fixed /brewer being bugged out if used more than one potion.
+- You can now obtain enchantments for XP Levels in /enchanter. 
+- Permissions are now fixed - This was an issue because even if you had user permissions, you still weren't able to execute commands that you should have access to. This wasn't tested for ranking permissions, only user permissions.
+
+- Fixed plant fast growth for donators, and as pre-user permissions. Before, this would become broken, or worse, non functional.
+
+- Fixed an permission(s) issue, where they'd reset upon every server restart (This would only affect user permissions, not ranking permissions.)
+
+- Defaulted players now have a cooldown of 3 seconds before breaking a block. This is in place to ensure there isn't many long term damages, or lag caused. Though, you can obtain a Donator perk, and can bypass this annoyingly feature. No, this isn't actually paid to win. You're not paid to actually win something. Simply, the reason why the Breaking cooldown is implemented is so we can produce something donators can bypass. Plus, we're unique. Yes, this may be annoying to hear or know, but at the end of the day, donators should be able to require "Premium features", those that bypass a few aspects of the server's featured gameplays. Such as plant growth, block breaking cooldown, and so much more.
+
+- Fixed internal server error upon breaking blocks.
+
+- You can no longer obtain EXP types from Slappers when hitting them.
+
+- You can no longer hit players for EXP (Untested to work, but this implementation was introduced).
+
+- We've been actively working on minor bug fixes, and improvements with performance fixes.
+
+- You can now receive more Mining experience as you progressively go up the ores. So for example, Coal would be 5 Experience, Gold would be 10 Experience, etc etc. Big thanks to @CST | Ted Bundy for suggesting this!
+
+- The port has now changed. Port: 19163
+
+- Fixed Mining 64 Cobblestone from becoming broken. This is now fixed, where you can mine 64 stone, which will class it as Cobblestone in /mines, and anywhere else.
+- The nether is now added! Type /warp nether to teleport there!
+- Added new block: Netherrack to the mining levels list, and will direct to Nether specific Skill XP's.
+- Netherrack will require 60 Mining levels to break this block.
+- Fixed "Needed XP" from only counting down by 1, not depending on how much XP Value it provides.
+- Added new Enchantment: Extra EXP. It's a type of enchant, but is undisplayable. We may add this to /enchanter soon as a new category, but for now, you can obtain it using the Randomized enchantment books.
+Big thanks to @GMT +8 | MaggotYT for suggesting this!
+
+- Added Voting system 2.0.0
+- Added new event: PlayerVoteEvent, used by plugin developers.
+- Voting just got better.. Including:
+* Enchantment books.
+* Sharpness 5, Unbreaking 3 powerful sword.
+* Unbreaking 3, Power 5 Powerful Bow.
+* Diamond blocks (x32)
+* x64 Steak
+
+- Voting System 2.0 also offers an automatic voting system, where you can wait until the voting cache is updated. Once it updates, it will check through all the concurrent votes before proceeding the appropriate actions.
+- Fixed onJoin and automatic cache updates from not updating the new items properly.
+- Donator permissions and perks are now complete. Here's the full list:
+
+## DONATOR PERMISSIONS
+
+# Ultra
+- Bypass the block breaking cooldown.
+- You can obtain up to 5 party slots.
+- Grow your farms in 600 seconds. By default, it will grow in 1,200 seconds.
+
+# MYHTIC
+- Bypass the block breaking cooldown.
+- You can obtain up to 7 party slots.
+- Grow your farms in 100 seconds.
+- /feed.
+- /fly.
+
+# LEGENDARY
+- Bypass the block breaking cooldown.
+- You can obtain up to 9 party slots.
+- Grow your farms in 50 seconds.
+- /feed
+- /fly
+- Join even when the server's full.
+
+# VOID
+- Bypass the block breaking cooldown.
+- You can obtain up to 13 Party slots.
+- Grow your farms in 1 second.
+- /feed
+- /fly
+- Join even when the server's full.
+- Add more skill levels to your data. (NOT PAID TO WIN SINCE IT WONT BE A LOT).
+
+- Added direct settings for /is settings, which will open the GUI of island settings.
+- Added Boss Loot rewards for when you kill the boss.
+- Voting is now complete! :D
+- Boss Loot is now complete!
+
+- Recoded Minions to implement the following:
+* Destroy minion button.
+* Link chest button.
+* Minion Levels with money, instead of items.
+
+- Minions now reach up to 10 Minion levels = 1 second.
+
+- Reorganized its API methods.
+
+- Fixed server crash when the server will tutorial you, but you instantly log off. This bug would've been a major issue, and this should now be fixed and taken care of.
+
+- Check for if the player is online, and visible before teleporting to the tutorials.
+
+- The store is now complete and finish. You can check it out using this link here: http://voidminerpocket.tebex.io/.
+
+- Fixed client crash when receiving a minion from /minionshop.
+
+- Interaction with Anvils now direct you to the crusher table menu.
+
+- Interaction with Brewing stands now direct you to the Brewing menu.
+
+- Fixed Brewer Menu taking too long to open. It'll now open a lot faster.
+
+- Added extra slots system to the server. How it works: When you're on the server, and you're a donator, and we receive over the max slot limit, then defaulted players won't be able to join unless they're either a donator or a staff member.
+
+- Fixed player slots from glitching out completely. This was my fault on my part, as I had to upgrade the slots to 60 player slots to ensure players can actually join.
+
+- Fixed client crash when breaking leaves using shears.
+
+- Block Break/Place sound now activates whenever you attempt to break/place a block, even if it's cancelled.
+
+- Leaves no longer turn into Green wool. This is because there were a lot of complications with this, so we then decided to remove this. The drops will still be vanilla, don't worry about it!
+
+- Fixed client crash upon breaking farms using your fist.
+
+- Fixed an issue where you could break farms using anything in your hand.
+
+- Fixed an issue, where you could break farms using anything in your hand except Wheat on your Island.
+
+- Fixed Hoe required message from occurring in mines as well, even though, the actions were successful.
+
+- Added new Island Template: Screenshots are in the previous announcements.
+
+- Removed Melon farms, and replaced it with Beetroot farms on your island.
+
+- Updated Book item to show the correct command usage from /guide.
+
+- Updated Brewing stand item to add the command display usage.
