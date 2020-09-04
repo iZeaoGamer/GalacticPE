@@ -407,3 +407,112 @@ Big thanks to @GMT +8 | MaggotYT for suggesting this!
 - Updated Book item to show the correct command usage from /guide.
 
 - Updated Brewing stand item to add the command display usage.
+
+- Added back SocialSpy! Use /ss to toggle it on/off.
+
+- Added back Chat toggler, where you can enable/disable chat, by using /chat. This is for higherups only for obvious reasons.
+
+- Added CheckHack. Type: /checkfly <player> to check somebody's flight, and /checkspeed to check somebody's speed status.
+
+- Added back /vanish.
+
+- Added back /invsee. The permissions will be similar to Zector.
+
+- Fixed duplicated rank names displaying in /setgroup command if entered the wrong value, and a list of ranks display.
+
+- Added Forms to /invsee.
+
+- You can no longer grief yours/other people's farms via islands. (griefing, as in jumping on them, making them break into dirt).
+
+- Fixed not being able to open certain aspects of /guide due to opening inventories too quickly if you had Screeen animations on in Minecraft Settings.
+
+- Island chat channel now works properly in terms with in game chat converting to #island-chat.
+
+- You are now required to break blocks using a pickaxe in the mines. If it's not a pickaxe, it'll display an error message saying so.
+
+- Fixed hoe messages from working on everything.
+
+- Fixed an issue, where you could break anything without requiring a hoe for required resources. (Part 2 - This did come back, and should have now been patched).
+
+- Fixed a possible issue, where you can break blocks before the server restarts, hence why some blocks were missing or turned into bedrock and never transformed back.
+
+- You can now break nether rack in the nether.
+
+- You can now break nether bricks block in the nether.
+
+- You can now break nether quartz ore in the nether.
+
+- Nether rack, Nether bricks block, and Nether Quartz ore now transforms automatically so you can mine it again. Essentially regenerating to its normal glory, like the other ores it happens to.
+
+- Added Nether portal generation. Suggested by @EST | Jhony.
+
+- Added new warps: /warp Water, and /warp Lava.
+
+* Warp Water: Allows you to put water into your bucket, for using this along with lava to make obsidian.
+
+* Warp Lava: Allows you to put lava into your bucket, for using this along with water to make obsidian.
+
+- Added nether portals to the game.
+
+- Removed /warp nether.
+
+- Fixed Pickaxe secondary skill from not working properly, and not giving you the right experience, unless you had Extra XP Enchantment.
+
+- Fixed Server tutorials from suffocating in walls.
+
+- Fixed client crash when using /cshop <Quest Tier>.
+
+- Added Clay block to Quest Tier 1 shop, which you can use in /crusher.
+
+- Added Gravel to Quest Tier 3 shop, which you can use in /crusher.
+
+- Fixed a naming issue, where steak was named "Porkchop".
+
+- Fixed Hotbar Crystal setting from sometimes not getting rid of the item completely if you try to disable it.
+
+- Fixed client crash when attempting to fish.
+
+- Added Weather to the server. We may remove this if people dislike this behavior, but for now, we'll be keeping this there.
+
+- Added CrossBow functionality.
+
+- We have a new anti-cheat, which shouldn't false detect as much as the other anti-cheats. The difference between the new one and the other anticheats, is most anticheats don't rely on client modifications, but they rely on specifications. The current anticheat we use now, relies on Client modification. This is indeed a lot better, and will only detect if and when there's a hack client or a client that modifies vanilla mechanics. And no, this doesn't mean it can be accurate. All anticheats may have a little or even very small false detectives. But we can ensure this anticheat doesn't false detect. As pre tested from one anticheat to another one, I can guarantee this is the best anticheat out there for MCPE. The plugin developer actually cares about legit players, and will do everything in their power to ensure legit players don't get false detected. They actively work, and update each cheat detection every so often to ensure there's a safe and no-hacking environment. Though, people could "potential" bypass the anticheat, it's very unlikely, and if they do, then the anti-cheat should detect it.
+
+- We've added a new command: /neptune alerts. This is where you can toggle on/off alerts for the anticheat. It's best to turn it on to ensure you know what's going on within the anticheat.
+
+## Ensuring a safe environment is our number one priority
+The goal for Void, is to ensure the server's a very safe environment whilst making each and every gamemode as unique as possible. This is our goal, and hope we try to complete it whilst everyone has fun, and enjoys our number one unique gamemodes network.
+
+## NOTE
+/neptune alerts is for Junior moderators and above to use.
+
+- Added a lot of new worldguard flags, one of them includes: Hunger flag.
+
+- Hunger being low should no longer occur on server builds.
+
+- Fixed region update bug.
+
+- Fixed being able to use ender pearls in certain areas.
+
+- Increased Y Coordinates to 51 Y coordinates per island. This is so we can better implement the Item Teleportation system.
+
+- Fixed items not teleporting back when going to the void. This was a todo hack because this was an issue on older versions of skyblock, so there was a way to patch this fix, and that was increasing the Player Y-Coordinate before teleportation to the player's island, and that is now 15 or below. If you're either Y-Coordinate 15 or below, then it'll now teleport you to your island. The item teleportations are still the same however. This came with numerous of bug fixes in relations to item teleportation/transportation.
+
+- Item Teleportation now takes longer than before. This is because the player's island is now higher Y-Coordinates than before, thus leading to fixing numerous of bugs and issues caused by Item teleportation. Yes, this is now fixed! ;D
+
+- Fixed being teleported high up when creating, or resetting your Island, thus making you take fall damage. OOF!
+
+- Using /tutorial start now automatically puts you in Adventure mode, just like when you join the game for the very first time.
+
+- Fixed server crash when you leave during a tutorial display.
+- Added new Book called "SkyBlock Help". Essentially will display a lot of things about SkyBlock Adventure, and how this is different to many other skyblock servers out there.
+
+- Fixed text overwriting each other.
+
+- Fixed client crash upon onJoin().
+
+- Fixed book text being blank.
+
+- Improved Chances for Compost and crushing table.
+
+- The chances are much more rare than they were previously (With /crusher, and /compost). It'll be a lot harder to obtain better items.
