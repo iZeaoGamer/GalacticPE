@@ -512,3 +512,6 @@ If I left the server for 30 seconds, then the time formatting will only display 
 - Bug fixes, and incredible improvements.
 
 - In terms with last seen's timing recode, I've also added "Time unavailable" message whenever the time can't be entered. (Most preferably) when the online or offline time is 0 seconds. This only occurs when you leave the server, the offline time will state "Time unavailable" due to  offline time not updating until player fully leaves the server. (Same goes for onlinetime, and joining a server) will also return the same error.
+
+Last seen's bug fix update:
+- We've added a comma from every time formatted time to ensure it's more easier to read and understand.
