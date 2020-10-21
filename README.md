@@ -1,2 +1,3 @@
 # VoidMinerPE-MCPE
-The biggest update ever.. The most drastic server return to ever exist. VoidMinerPE.. The start of something new...
+
+The biggest update we've ever encountered on the network.. The network rebrand 2.0.0.. This changes everything..
