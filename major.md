@@ -342,3 +342,173 @@ This will be apart of the network rebrand 2.0.0!
 - Added Server Selector cooldown, so you can use it every certain amount of seconds to prevent further issues with chest and inventories.
 
 - All of this, isn't built from coding. This is all built within a config file that I coded in, which allows you to fully customize your looking, hella-cool server selector. There's nothing like it for MCPE.
+
+- We've fully upgraded Social Spy to 2.0.0. This version has many bug fixes, less annoying issues, and generally implements a new feature.
+
+- Fixed SocialSpy from not being disabled properly when you leave the server.
+
+- When you rejoin the server, and you had socialspy enabled before, it should now still be enabled without the need to execute /ss again. There is a cache though, and the cache is: If the server restarts, then the server will automatically disable socialspy for everyone. This is for security reasons.
+
+- Completely different formatting for SocialSpy's commands, and chat messages.
+
+- Fixed an issue, where if you rejoined the server, it would act like it was enabled using SS, but it wouldn't display the commands publicly that you should be able to see via socialspy.
+
+- We've fixed a potential CPU Leak on OP Prisons. We plan to do the same for OP Factions. Though, we don't know when this will happen yet.
+
+- We've moved Lobby 2 and Lobby 3 servers to a different node. This should be the last time we ever do this for a while, unless more bugs occur.
+
+- Moderators and Void Team can now access /socialspy, and will be able to receive incoming commands.
+
+- Added OG OP Prisons to the network (Still need to add its server to the network).
+
+- Moderators can now set ranks. We've done this because we simply don't have enough people for the job. We may remove this permission for Moderators if it starts to cause issues in the future.
+
+- Added Gray Stained Glass around the Server Selector in Lobbies.
+
+- Added Gray Stained Glass in /enchanter, /quest, /skills, /guide, /is settings, brewer, crusher, composter, and so much more!
+
+- Fixed massive CPU leak to do with /enchanter.
+
+- It's now easier to know where to put Item that you want to /enchanter with. You'll now need to put it in the Empty slot, which has only 1 empty slot available, thus making it obvious.
+
+- Redesigned inventories / menus, renamed Inventory names to ensure they receive the best-styled-coded formats.
+
+- Database no longer disables if tried enough (3 times). It'll keep being in a loop until the database is online.
+
+- It'll now announce the database status in #network-status.
+
+- We've added a new parameter to the functions named: isDown. This will allow the server to know whether or not the database is down. If true, it'll return as database offline. If false, it'll return as database online.
+
+If the isDown parameter is set to null, then it means it'll return as the server's current status.
+
+- It'll now display what server's database is currently offline/online. In most cases, they are the same. But it's best to be sure, right?
+
+- The server will be unplayable as of the most part, when the database is offline. We are doing this method so people know that our servers may be offline due to this, so we're actually giving you a reason as to why the server's down or unplayable.
+
+- The database will automatically go online once it's available again. (Untested, but will let you know of the results once back online).
+
+We will be doing a massive update regarding Ranks recode! We've sorted out promotions, and new system, ranks, and more!
+
+## How it will work
+We will be having 6 new sub-ranks. Sub ranks, are ranks that are all ranks in one. The main rank for these sub ranks we currently offer, is called "VoidTeam". In game, it'll be called "Management".
+
+The 6 new sub ranks will be:
+## Community Manager
+This rank will mean you're in charge of the community side, listening to players, and generally being professional.
+
+## Head of Server Moderation
+This rank will mean you're fully in charge of Server's moderation - Any hackers reported by staff will be directed to this role so the Head of Server Moderation can decide whether or not that's enough proof before banning.
+
+## Staff Manager
+This rank will mean you're fully in charge of Server's staff members, you can: Demote, promote, or anything as the such if you wanted to, as long as it's for a reason, and we organize it.
+
+## Organization Manager
+This job will mean you can organize things such as:
+* Events
+* Promotions/Demotions.
+* Everything that goes on within the server or network.
+
+## Supervisor
+This role is where you would help the staff with anything they need - If it's to do with punishments, then this role will do just that! It'll help staff, show them how it's done, and generally, an experienced void team member.
+
+## Executives
+This rank is in charge of everything that goes on. This role is above all. The only executives would be the owners.
+
+- Changed the way databases are connected.
+
+- Database will now automatically reconnect as soon as the database is back online.
+
+- The server will now automatically check if the database is available, and will publicly state so in #network-status.
+
+- Changed Ultra and Void Rank colors in the public discord server. (Will also update for in-game soon)
+
+- Builders can now see this channel (#announcements).
+
+- Added a new Music Bot system: 
+
+To use the bot, type -help in #bot-commands (on either one of the discords), and it'll DM you some useful help information.
+
+- Fixed potential bot lag (May still occur, but not as bad to the point where it'll stop responding). 
+
+- Upgraded ram for VoidMinerPE's bot.
+
+- Added new roles (Executive, Supervisor, Staff Manager, Head of Moderation, and Community Manager). All displays what each of their job description in #rank-info.
+
+- Fixed permissions for Void Team role(s) from not being able to do certain things.
+
+- Moved Lobby 3, Lobby 2, OG OP Prisons, and VoidMinerPE bot to a different node, which should be less buggy. :D
+
+- We've added a new option to the Server Selector configuration named: proxy-transfer. (More explained below).
+
+## What's Proxy transfer?
+- Proxy Transfer, is an option to allow/disallow proxy side transfers. If this is set to false in one of your servers, it'll use pocketmine's default transfer system. If you set it to true, it'll use the proxy transfer (Bungeecord transfer), where it'll automatically connect you to a server instantly.
+
+- We now support Minecraft bedrock vanilla servers to the server selectors! Yay! (So it isn't just PMMP we support.  finally!)
+
+- Added Anarchy to the server selector.
+
+- Added OG OP Prisons to /server and to Server Selector.
+
+- Now made Proxy Transfer an optional option, meaning you don't have to enter it on every server! If proxyTransfer is empty, and you haven't made it appear in the config.yml, then it'll automatically set to true, and use Proxy's transfer. I haven't seen any public plugins that do this. It's also good because it reduces disk space. No need to use proxyTransfer as an option if you're using a proxy.
+
+## KEEP IN MIND
+If you're using servers that aren't built or supported by Bungeecord (E.G Vanilla bedrock servers), then use proxyTransfer, and set it to false.
+
+- Fixed crash when selecting a specific server that has proxyTransfer set to true (automatically only).
+
+- Bug fixes, and improvements to do with Database status reappearing twice.
+
+- Added new option to Maintenance Mode plugin: kick_early.
+
+## What does "kick early" option do?
+If you set this option to true, then it'll use prelogin() event, rather than onJoin(). This option is useful for if you're using a proxy, and not using the hub. You can put it on other gamemode's (not the hub) and it'll kick before you are locating. It's useful for if you want the proxy kick message to occur before they actually join the server.
+
+We've changed how database brings out many bugs, including ranks, #last-seen messages, permissions, user permissions, and so much more!
+
+I am happy to announce we've fixed an issue, where databases being offline would bring out errors, and would be unjoin able due to those errors. 
+
+- We've also added a new function: isDatabaseConnected() to the core. This function is a boolean, and allows you to check if a database is connected. If not, returns false.
+
+This function brings out a lot of bug fixes to do with erroring and errors, and makes the plugin stabled.
+
+Now, this isn't confirmed, but we've added a new Anti-Bot system to the network, probably the first ever in MCPE. Here's information on it:
+
+## What does it offer?
+>> https://cdn.discordapp.com/attachments/700404144963452999/768191358527209523/BotFeatures.PNG <<
+
+## Videos
+Down below are all the videos, tested with Bot Sentry and how it handles attacks.
+https://youtu.be/4NzfEGhOmpU
+https://youtu.be/aKXecm4LSkE
+https://youtu.be/xxzrRErtziU
+https://youtu.be/J4_SKBPXcSw
+https://youtu.be/_82XnqDQyb4
+https://youtu.be/pdnUxiCR9tw
+
+## Website Verification
+Great news! We also offer a new verification website to ensure you're not a bot. This should only be used when the network's under attack.
+
+## LINK
+http://vmpeverify.ml/
+
+ As of Network rebrand 2.0.0, we will be recoding our #last-seen's online and offline time system. Here's what we've changed:
+
+- We now support the following time formatting to Online and Offline time:
+* Days
+* Months
+* Years
+
+- We no longer store formats that have both zeros on the end. As you can see in the old formatting screenshot, it always required a 00. This is not the case anymore! Time formatting is now so much easier to read than before!
+
+- Changed time formatting entirely, remove useless time formatting that required zeros in both ways.
+
+- Time formatting has changed forever; Before, it'll always include the full time formatting nonetheless. Now, it'll only add the small timing that has more than 0 hours, minutes, days, and years. For example:
+If I left the server for 30 seconds, then the time formatting will only display "seconds", and not the other timings. If I left the server for 1 minute, then it'll display "Seconds and minutes". If I left the server for 1 hour, it'll display "hours, minutes, and seconds". If I left the server for 1 month, then it'll display "months, hours, minutes, and seconds". If I left the server for a year (1), it'll display "Years, months, hours, minutes, and seconds". SO basically, it's now all partial times, and not the exact but full timing. We got rid of this due to chat clogged. It's now easier and better to use partial time, rather than full time.
+
+- Fixed timing problems from happening sometimes.
+
+- Timing that has no timing due to you either just joined or left, then it'll return "blank". I do plan to add a message to those timings that were blank so people are aware why this error may be occurring. This example would be where if you just joined the server, OnlineTime would return blank because you just joined. Same goes for if you left, OfflineTime would return blank because you just left, and only counts whilst you've left the server. (Same goes for if you join a server).
+
+- Bug fixes, and incredible improvements.
+
+- In terms with last seen's timing recode, I've also added "Time unavailable" message whenever the time can't be entered. (Most preferably) when the online or offline time is 0 seconds. This only occurs when you leave the server, the offline time will state "Time unavailable" due to  offline time not updating until player fully leaves the server. (Same goes for onlinetime, and joining a server) will also return the same error.
