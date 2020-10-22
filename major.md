@@ -515,3 +515,33 @@ If I left the server for 30 seconds, then the time formatting will only display 
 
 Last seen's bug fix update:
 - We've added a comma from every time formatted time to ensure it's more easier to read and understand.
+
+- Fixed being kicked to the main lobby whenever you tried connecting to a gamemode that wasn't online or wasn't able to be joinable. It'll now stick to where you are, and not teleport you.
+
+- Added Multi Lobby support - You will be teleported to a lobby that has the lowest players online.
+
+- Changed messages for Multi-Lobby!
+
+- Certain commands will no longer display in #staff-commands for security reasons.
+
+- Changed the event from CommandEvent to PlayerCommandPreprocessEvent for more compatibility.
+
+- Added NPC's to ALL lobbies!
+
+- All NPC's have a scale of 2. SO that means NPC's are bigger than normal. 
+
+- The hub's are now complete!
+
+- You can no longer break/place in lobbies.
+
+- You'll now be in adventure mode when in the lobby servers. This is so you don't abuse potential bugs and glitches in the future.
+
+- Your hunger will no longer go down in the lobby servers.
+
+- Fixed some compatibility issues between certain plugins.
+
+- Your inventory will clear upon every join before giving you the server selector item to prevent abuse of items.
+
+- After this update, we had a major bug, where if you entered more arguments than your main command, it wouldn't register it in #staff-commands. Good news, is that's now been fixed, and will allow more arguments in the command message, aslong as it doesn't have: /rca.
+
+ - Removed /slapper completely from our system to prevent abuse. We can enable this later on if we need to.
