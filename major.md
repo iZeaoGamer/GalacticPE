@@ -575,3 +575,7 @@ Last seen's bug fix update:
 - Fixed grief spaces ONCE AGAIN. Should be the last of it now. ;P
 
 - We've also updated OG OP Faction's NPC to the appropriate IP on ALL lobbies!
+
+- Updated Max player slot for Anarchy.
+
+- Fixed max player count displaying as zero or one. It's now at 40 max players, and more if joining when the server's full.
