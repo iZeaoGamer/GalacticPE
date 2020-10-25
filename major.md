@@ -545,3 +545,33 @@ Last seen's bug fix update:
 - After this update, we had a major bug, where if you entered more arguments than your main command, it wouldn't register it in #staff-commands. Good news, is that's now been fixed, and will allow more arguments in the command message, aslong as it doesn't have: /rca.
 
  - Removed /slapper completely from our system to prevent abuse. We can enable this later on if we need to.
+
+- Changed #staff-commands formatting, and added what server they're on. We do this to ensure proxy compatibility, as seen in the screenshot.
+
+- Shulker Boxes can no longer be opened in lobbies. (Thanks @GMT+3 ✨ŁiŁsky•✨ for reporting this issue!)
+
+- Fixed griefed areas in OG OP Factions server.
+
+- Added isGamemodeServer() function, which allows the server to check for a specific server. Parameter is a string, and only requires which server you want to check for. We may do more with this API later on.
+
+- Added command usage menu when entering a bungeecord command. Please keep in mind this doesn't work with every bungeecord commands. It only works for the server commands.
+
+- Fixed /is setspawn error if not on an island.
+
+- Added new custom island, big thanks to the Build team! Much love!
+
+ - We've fixed players being able to open Shulker boxes on Lobby 1 and Lobby 3. That has now been resolved!
+ 
+ - Fixed major security problems with OG OP Factions, which would allow you to directly connect to that server. All problem solved!
+
+- We've moved OG OP Factions to a new node, and fixed disk full problems.
+
+- Updated Scoreboards, and server selector to match the new node's details.
+
+- Updated proxy to add OGOPFactions's new node to the network.
+
+- Fixed world corruptions from occurring. We had this problem because one of the nodes disk space was full, therefore causing many issues to do with files being corrupted.
+
+- Fixed grief spaces ONCE AGAIN. Should be the last of it now. ;P
+
+- We've also updated OG OP Faction's NPC to the appropriate IP on ALL lobbies!
