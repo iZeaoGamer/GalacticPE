@@ -579,3 +579,97 @@ Last seen's bug fix update:
 - Updated Max player slot for Anarchy.
 
 - Fixed max player count displaying as zero or one. It's now at 40 max players, and more if joining when the server's full.
+
+- Error messages will now show in #network-status when the database is offline. This is so we can result into knowing the cause of the database becoming offline.
+
+- Completely recoded API, and added a new class: Network.
+
+The network class is a networking class, allowing all functionality to be to do with networking. Here's the following functions we've added:
+* getServerName() - Returns the current server the player is on.
+
+* isServer() - Returns whether the current server is actually a server.
+
+* isProxy() - Whether or not you're using a proxy. This method may be unreliable, and has been untested to work in both ways.
+
+* getLobbies() - Gets all lobbies through out the network!
+
+* getLobby(string $lobby) - Returns the given Lobby name.
+
+* getServers() - This totals all servers except the lobby servers.
+
+* getGamemodes() - This totals all gamemodes except the lobby servers.
+
+- We've completely recoded chat formatting's new methods.
+
+- Added new Factions plugin, bettter than ever!
+
+- Added new Factions system support to OG OP Factions!
+
+- If not in a faction, it'll now display as "...".
+
+- SkyBlock Levels will now not show up if the user has level zero.
+
+- Used our unique API to introduce per server names.
+
+- Updated Kits to display the updated ranks.
+
+- Added OG OP Factions to server selector (Will announce once we've brought it back fully though).
+
+- Added /wild, updated, and better than ever!
+
+- Added new Vanish hud system!
+
+- Moved vanish related content from the old core to the new network core, and have added it as a static API.
+
+- The HUD displays the following:
+* Current amount of vanished players online.
+
+* Time since you've been vanished.
+
+- When you've lost permission, you'll now automatically be taken out of vanish, and will receive a message containing why you've been taken out of vanish. This is for security reasons.
+
+- Removed the old core, and are adding more commands to the network core.
+
+- Fixed Minion shop from crashing the given player.
+
+- Added Join and Quit messages to #global-public-chat. The difference is everything is global in #global-public-chat including chat/quit messages, and #last-seen is for staff / builders join/quit messages only.
+
+- Fixed vanish time bug, where the time would continue where you left off if you toggle vanish off, then back on. This shouldn't occur.
+
+We have made a brand new team called: "Beta Team". This team will be very limited to certain channels for security reasons.
+
+#request-something is now requesting anything
+- As of Network Rebrand 2.0.0, we will no longer just be allowing ranks. This list contains the following request types you can use:
+
+- Whitelist / Beta pass
+
+- <rank> - This rank can now also mean a donator rank, for beta testers or for anyone that had a donator rank before. I know we lack on doing this, but the reason is simply due to timezones. You can't set somebody's permission when they're offline. We may fix this in the future though.
+
+- Added Proxy broadcasts instead of per server support.
+
+- Fixed /pv from not opening storage properly.
+
+- Spawners now work as expected - Just right click the spawner using the spawn egg you want to use, and there you go - It'll add it to the spawner.
+
+- Added a new Networking error feature.
+How this works: Every error that is caught from one of our servers, the error will display errors, and will log it for super higherups to see. As you can see, in the screenshot, this'll be what it looks like. And no, we didn't give the whole code away, only the function which the error occurred in.
+This is a much simpler way of retrieving errors, without checking console, since that takes ages to do, and it could potential be gone by the time I see it. This erroring feature will allow me to check the error directly on discord without the hassle of checking console, where it's limited clogged messages.
+
+- Fixed not being teleported to spawn when falling off from spawn.
+
+- Fixed not being teleported to spawn when falling off your island.
+
+- Fixed /is settings not working.
+
+- We've fixed an issue, where if a player creation class was not found, it'll return as if the user's a console. If a player creation isn't found, it'll return a no permission error. Much more professional than our old system.
+
+- Added /spawn to OG OP Factions.
+
+- Updated Starter kit from /kit.
+
+- Spawn arguments are now dependent on the server the user is on.
+
+- Updated Custom Enchants to 2.0.0, which is a huge update.
+
+- Added new Factions plugin to OG OP Factions. This update is so huge. It's got:
+Faction permissions, customizability, faction fly, claiming (auto, circle, square), unclaiming types, more custom features, and so much more! You should check it out!
