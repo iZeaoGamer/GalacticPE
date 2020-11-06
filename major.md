@@ -674,12 +674,11 @@ This is a much simpler way of retrieving errors, without checking console, since
 - Added new Factions plugin to OG OP Factions. This update is so huge. It's got:
 Faction permissions, customizability, faction fly, claiming (auto, circle, square), unclaiming types, more custom features, and so much more! You should check it out!
 
-## NEW CHANGE / INTRODUCTION
-Hey! I would like to announce a new change directly to discord. We will no longer be pinging @ everyone unless the updates or announcements include all roles.
-So if there's a staff system update that is for the staff team to know, then I'd ping the staff team role only. This just makes life easier, and to know which roles this announcement directs to!
+- We will no longer be pinging @ everyone unless the updates or announcements include all roles via discord.
+
+* So if there's a staff system update that is for the staff team to know, then I'd ping the staff team role only. This just makes life easier, and to know which roles this announcement directs to!
 
 
-## What's new?
 - We've brought Premium Vanish (A java plugin)'s Scoreboard into MCPE! The screenshot stated is going to be the new vanishing system!
 With this system adds the following:
 * Time (Note; Time is in GMT 0+00 based.
@@ -725,7 +724,7 @@ With this system adds the following:
 * Faction Balance - Displays how much money is currently in your faction.
 
 
-Information
+## Information
 - The faction: section is the faction you are currently in. If you're not in a faction, it'll display a X emoji as seen in the screenshots. If in a faction, it'll display what faction you're currently in.
 
 - Balance: Displays how much money you have.
