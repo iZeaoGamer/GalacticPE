@@ -673,3 +673,80 @@ This is a much simpler way of retrieving errors, without checking console, since
 
 - Added new Factions plugin to OG OP Factions. This update is so huge. It's got:
 Faction permissions, customizability, faction fly, claiming (auto, circle, square), unclaiming types, more custom features, and so much more! You should check it out!
+
+## NEW CHANGE / INTRODUCTION
+Hey! I would like to announce a new change directly to discord. We will no longer be pinging @ everyone unless the updates or announcements include all roles.
+So if there's a staff system update that is for the staff team to know, then I'd ping the staff team role only. This just makes life easier, and to know which roles this announcement directs to!
+
+
+## What's new?
+- We've brought Premium Vanish (A java plugin)'s Scoreboard into MCPE! The screenshot stated is going to be the new vanishing system!
+With this system adds the following:
+* Time (Note; Time is in GMT 0+00 based.
+
+* TPS
+
+* Vanished (The amount of vanished players there are)
+
+* Vanished Time - How long your vanished session is since you became vanished. (Does not include leaving+joining).
+
+* Target - If you don't know what "Target" is, it's a new feature, where you can interact with the Player head that is in your inventory when you vanish. Once interacted with, a UI should pop up. You can select a player to target, and what this essentially does, is it allows you to add a player to the Target list (Only one will show, and currently doesn't offer multi-player support). We may add this soon. The target list is useful for if you feel someone's being suspicious, you can add them to the target list just in case if you ever forget later on! And yes, this unfortunately does disappear when you log off and log back on. There's no real fix to this, except making a database for it, but that overfills a lot of storage, and am trying to prevent into doing that.
+
+- Fixed being able to place Mob head item.
+
+- Fixed not being able to place blocks when in vanished, since before, you couldn't place any blocks when in vanish.
+
+- Added new function: setTeleports() to Network::class. This function will allow the network to know which servers they're in, and will teleport them appropriately. We made this a function so we didn't have to repeat the long function, and prevents us from updating it from more than one area of code.
+
+- Fixed crash on Skyblock Adventure.
+
+- Fixed some crashes upon joining too quickly. It'll now kick you for the correct reason, instead of classing it as an "error" message. We may need to work more on this further, but this is looking good. It could also prevent further errors too.
+
+- Fixed Vanish scoreboard from not displaying after turning it off and back on again.
+
+- Fixed target always being the same player.
+
+- When you're in vanish, it'll automatically put you into survival mode.
+
+- When you come out of vanish, it'll now automatically put you into Adventure mode. (This only occurs if you're in the lobby).
+
+- Added storable previous inventories to prevent conflictions, and removals of the current saved inventory.
+
+- Added OG OP Factions Scoreboard!
+- Here's the scoreboard for when a Faction is created:
+* Members status (1/1), meaning 1 is the total online players that are in the faction, and the end 1 is the total players in the faction, including offline players.
+
+* Power Status: (6.33/10), meaning 6.33 is the current faction power, and 10 is the maximum faction power.
+
+* Enemies - Displays how many enemies you've made within your faction.
+
+* Allies - Displays how many allies you've made within your faction.
+
+* Faction Balance - Displays how much money is currently in your faction.
+
+
+Information
+- The faction: section is the faction you are currently in. If you're not in a faction, it'll display a X emoji as seen in the screenshots. If in a faction, it'll display what faction you're currently in.
+
+- Balance: Displays how much money you have.
+
+- Rank: Displays your current server rank.
+
+- Fixed crash on SkyBlock Adventure due to an incorrect server name field via Scoreboards.
+
+- Added Spawner to /shop. It'll be in the MobDrops category.
+
+- Added vote rewards for OG OP Factions!
+
+- Fixed auto broadcasting through out the network from the announcements not syncing properly, and would cause conflicted issues with each other.
+
+- Reformatted Announcement messages in game to ensure professionalism.
+
+- Updated voting API key for SkyBlock Adventure and OG OP Factions.
+
+- You get the following from voting on OG OP Factions:
+* $10k in game money
+* 10 Vote keys
+* Vote kit that you can only obtain by voting (It automatically gives you it).
+
+- Added Mob stacking to OG OP Factions.
