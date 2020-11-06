@@ -681,7 +681,7 @@ Faction permissions, customizability, faction fly, claiming (auto, circle, squar
 
 - We've brought Premium Vanish (A java plugin)'s Scoreboard into MCPE! The screenshot stated is going to be the new vanishing system!
 With this system adds the following:
-* Time (Note; Time is in GMT 0+00 based.
+* Time (Note; Time is in GMT 0+00 based.)
 
 * TPS
 
@@ -689,7 +689,7 @@ With this system adds the following:
 
 * Vanished Time - How long your vanished session is since you became vanished. (Does not include leaving+joining).
 
-* Target - If you don't know what "Target" is, it's a new feature, where you can interact with the Player head that is in your inventory when you vanish. Once interacted with, a UI should pop up. You can select a player to target, and what this essentially does, is it allows you to add a player to the Target list (Only one will show, and currently doesn't offer multi-player support). We may add this soon. The target list is useful for if you feel someone's being suspicious, you can add them to the target list just in case if you ever forget later on! And yes, this unfortunately does disappear when you log off and log back on. There's no real fix to this, except making a database for it, but that overfills a lot of storage, and am trying to prevent into doing that.
+* Target - If you don't know what "Target" is, it's a new feature, where you can interact with the Player head that is in your inventory when you vanish. Once interacted with, a UI should pop up. You can select a player to target, and what this essentially does, is it allows you to add a player to the Target list (Only one will show, and currently doesn't offer multi-player support). We may add this soon. The target list is useful for if you feel someone's being suspicious, you can add them to the target list just in case if you ever forget later on! And yes, this unfortunately does disappear when you log off and log back on. There's no real fix to this, except making a database for it, but that overfills a lot of storage, and I'm trying to prevent into doing that.
 
 - Fixed being able to place Mob head item.
 
