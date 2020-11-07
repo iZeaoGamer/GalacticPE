@@ -749,3 +749,23 @@ With this system adds the following:
 * Vote kit that you can only obtain by voting (It automatically gives you it).
 
 - Added Mob stacking to OG OP Factions.
+
+- Added Faction Bank system to OG OP Factions
+
+- Added /f deposit - Deposit money into Faction Bank.
+
+- Added /f withdraw - Withdraws money from your faction bank.
+
+- Added a dollar sign next to "Faction Balance" through the scoreboard.
+
+- Added /f money - Displays how much faction balance you currently have.
+
+- We've added and fixed <#737707733091876874> and <#739247333694505031> from displaying incorrect details.
+
+- Updated category name for Mod chats. It's now called "Server chat". This is to prevent any future confusions.
+
+- Fixed crash when chatting.
+
+- Added new mode: Faction to the Player::class. This should fix issues, based on faction and ally chat being displayed in <#739246992516972568>.
+
+- Fixed Chat settings tab from not putting you to Island chat properly via /is settings on SkyBlock Adventure.
