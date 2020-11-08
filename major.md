@@ -769,3 +769,28 @@ With this system adds the following:
 - Added new mode: Faction to the Player::class. This should fix issues, based on faction and ally chat being displayed in <#739246992516972568>.
 
 - Fixed Chat settings tab from not putting you to Island chat properly via /is settings on SkyBlock Adventure.
+
+- Fixed Scoreboard from not appearing if another staff is in vanish.
+
+- Added more vanish support (More below).
+
+- Vanishing will now remove the player from the online list, and from certain queries. 
+
+- You can no longer hit other players whilst you're in vanish.
+
+- You can no longer take ANY damage (all causes + types) whilst you're in vanish.
+
+- Fixed skin flickering bug - This was to do with the new vanish update that we fixed. You might experience skins like steve popping up if you have perms to see another staff member whilst they're in vanish. But it shouldn't be noticeable, and if it does, then just ignore it. That's one of the only bugs I've experienced so far. There shouldn't be much bugs with vanishing.
+
+- You can no longer pick up items whilst in vanish.
+
+- Added silent chests. How it works: When you're in vanish, and you interact / open a chest, it'll no longer make a chest open/close sound. That way, you can go do your moderation without any issues.
+
+- You can no longer burn or be on fire when in vanish.
+
+- Your hunger will no longer drop when in vanish.
+
+- Added new function to Network::class: getOnlinePlayers(). This method is all online players that aren't in vanish.
+
+- Fixed crash when using /vanish.
+
