@@ -794,3 +794,49 @@ With this system adds the following:
 
 - Fixed crash when using /vanish.
 
+- Fixed /vanish from crashing you due to an internal server error.
+
+- Scoreboard's now work even if the database goes offline.
+
+- Fixed Scoreboard from crashing the entire server.
+
+- Added a new broadcast across all servers. This broadcast will only occur when the database is offline.
+
+- Added a lot of messages globally regarding Database being currently offline. It also warns you it may cause slow performance, and the servers will be limited to certain features during this time. We do this to prevent anymore confusions as to why the server isn't responding for at-least 60 seconds.
+
+- Added an onJoin() reminder if the database is offline, it'll let you know so, rather than assuming we could fix this, when in reality, we can't. It's up to the host to fix it.
+
+- Fixed vanish scoreboard from displaying only the title whenever the database is offline.
+
+- You can no longer use /vanish whilst database is offline. We may fix this so staff are still able to moderate soon! 
+
+- You can no longer use /setgroup whilst the database is offline. This is to prevent any future errors to do with this, so instead, we've added basic messages so people know the reasonings for this. (Information usually states why the database is offline in #network-status) (Which we'll move to the public discord server soon!)
+
+- Added new rank: Admin to the server - Hasn't been tested or completed yet due to database becoming offline, and unusable.
+
+- Remember the staff mode bug, where sometimes it won't give you your stuff back when you log off, and log back on again? Great news! This bug has finally been fixed! After a few months of this bug occurring. I believe the first person that reported it, was @ٴ Spøokyٴ! So thank you spooks for reporting this long-awaited bug! No matter what you do, the items will come with you! Want to leave the server? Sure you can! It'll always be in your inventory when you next join! That way, you'll never lose your items no matter what!
+
+- Fixed staff mode from not giving you your items back if the server restarts, and you're on, and in staff mode (Vanish).
+
+- Fixed crashes when attempting to join the server, which lead to staff mode issues.
+
+- Fixed Steve head from not opening the Form UI.
+
+- Added new feature to SkyBlock: Conversions.
+
+How this works?
+- You can now convert available items into better items. At the moment, we have one item conversion. Iron ingots to Hoppers. You can get Iron ingots by mining iron ore, which requires a certain skill level to mine iron ores. That way, it's more grindy - You actually receive iron ingots just by grinding your butt off! That's what a server should be like!!
+
+- Want to use all your iron ingots in almost one click? That's fine! Because with this new conversion update, you can now receive more hoppers. The more iron ingots you have, the more hoppers you'll receive, in just almost one click! That's just insane!
+
+- Re-coded SkyBlock's GUI coding formatting to prevent any other messy-codes.
+
+- GUI changes.
+
+- Fixed Mob head from displaying an empty string error whilst opening the form.
+
+- Do not include total players online in the Form UI for Target feature. Only include those that aren't vanished!
+
+- It'll now display a proper error message now when opening the UI, with you vanished, and if there's no one else on the server that's not vanished. This is for security reasons also, which is even more dope! Because why would you want to see vanished players on the list aye?
+
+- Fixed online count duplicating via scoreboard.
