@@ -840,3 +840,19 @@ How this works?
 - It'll now display a proper error message now when opening the UI, with you vanished, and if there's no one else on the server that's not vanished. This is for security reasons also, which is even more dope! Because why would you want to see vanished players on the list aye?
 
 - Fixed online count duplicating via scoreboard.
+
+- Inventory drops for Mobs will now go automatically straight to your inventory, unless on one stack.
+
+- Experience / XP drops for Mobs will now go automatically straight to your hotbar, unless on one stack.
+
+- Fixed Staff mode bug, where relogging won't get your stuff back after being in staff mode. That was because I apparently forgot to upload the files to OG OP Faction's FTP. Whoops! My bad!
+
+- Fixed being able to interact with spawners in protected areas.
+
+- You can no longer destroy spawners in protected areas! This means there is absolutely no bypasses to this, whatsoever. 
+
+- Fixed crash when attempting to interact with spawners in protected areas.
+
+- Added WorldGuard compatible support to Spawner stacking plugin.
+
+- Reset  all Islands on SkyBlock Adventure! You should no longer see other created islands upon creation of your island, only your own! 
