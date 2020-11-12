@@ -1,5 +1,10 @@
 ## V2.0: The proxy and biggest update ever!
 
+## Information
+# This is the biggest update we've ever encountered ever! There's nothing like it. This update adds proxies, multiple servers support, many bug fixes, re-codes to a lot of plugins, and GUI's, proxy party and friends system, complete re-code to make all codes even better, many changes including: Online/Offline time, last seen changes, Client stats information, improvements, many bug fixes, start of SkyBlock Adventure Season 2, new servers such as: Anarchy, and OG OP Factions, SkyBlock Composter, and so 800+ more changes!
+
+# I can say, this update is the biggest we've ever had! Here's the new Network rebrand 2.0, the update you've all been waiting for!:
+
 - Added Friends and Party system globally.
 
 - Added Finding a player within the network. All staff will have /find <player>.
@@ -7,9 +12,6 @@
 - Added /altfinder search <player> - This command will allow you to globally search for alts on a player. Yes, this is indefinitely globally, and will most likely be on the release (if no issues arise with it).
 
 - We've added Client stats to MCPE! We're not sure if we'll keep it due to backwards incompatibility, but we're going to try and work on adding protocols for MCPE's versions. But the command is /cstats, and this command will allow you to check all the client's information of a player. Merely this information will be their current minecraft version, and how many unique players have joined the entire network, and you should be able to check by months, or days. This hasn't been confirmed yet, so this could change.
-
-
-- Adding support for clients from 1.9 to 1.16: This hasn't been tested, but according to server list, this server supports 1.9, but in reality, it supports 1.16.0. I'll most likely try to test using other versions and see if it works properly. 
 
 ## MORE NEWS
 Bungeecord plugins now work directly in MCPE, as long as you use the proxy! Yay!
@@ -856,3 +858,19 @@ How this works?
 - Added WorldGuard compatible support to Spawner stacking plugin.
 
 - Reset  all Islands on SkyBlock Adventure! You should no longer see other created islands upon creation of your island, only your own! 
+
+- Fixed Clear lag not clearing mobs and entities properly on OG OP Factions.
+
+- Fixed Clear lag not displaying an accurate amount of entities that were cleared.
+
+- If server name cannot be found, use lobby spawnpoints in setTeleports().
+
+- Changed lobby spawns, and made them higher than the ground. 
+
+- Do not duplicate teleporting codes. Only use setTeleports() for obvious reasons.
+
+- Added Lobby spawnpoints to /spawn.
+
+- Fixed vanished time not resetting sometimes if going out of vanish.
+
+- Start using the bot as announcements and polls! (Polls are manually reacted)
