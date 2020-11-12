@@ -1,7 +1,7 @@
 ## V2.0: The proxy and biggest update ever!
 
 ## Information
-# This is the biggest update we've ever encountered ever! There's nothing like it. This update adds proxies, multiple servers support, many bug fixes, re-codes to a lot of plugins, and GUI's, proxy party and friends system, complete re-code to make all codes even better, many changes including: Online/Offline time, last seen changes, Client stats information, improvements, many bug fixes, start of SkyBlock Adventure Season 2, new servers such as: Anarchy, and OG OP Factions, SkyBlock Composter, and so 800+ more changes!
+# This is the biggest update we've ever encountered ever! There's nothing like it. This update adds proxies, multiple servers support, many bug fixes, re-codes to a lot of plugins, and GUI's, proxy party and friends system, complete re-code to make all codes even better, many changes including: Online/Offline time, last seen changes, Client stats information, improvements, many bug fixes, start of SkyBlock Adventure Season 2, new servers such as: Anarchy, and OG OP Factions, SkyBlock Composter, and 800+ more changes!
 
 # I can say, this update is the biggest we've ever had! Here's the new Network rebrand 2.0, the update you've all been waiting for!:
 
