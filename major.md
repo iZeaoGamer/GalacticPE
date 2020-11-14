@@ -874,3 +874,41 @@ How this works?
 - Fixed vanished time not resetting sometimes if going out of vanish.
 
 - Start using the bot as announcements and polls! (Polls are manually reacted)
+
+- Added Bloody Notes. How they work:
+* You have a chance of receiving Bloody Notes from mining Diamond ores only. Once you've received bloody notes, they will have money in it, as screenshot states so. Once interacted, you will probably get some money from it.
+
+- You can now receive Clay blocks from mining coal ore. Once you've mined for them (and if you receive them), you can use them in /crusher, then click on "Crush Clay". This item will now be useable from /crusher.
+
+- Reorganized Composter GUI.
+
+- It's now a lot harder to levelup your skill / item. How it works:
+* Before: When you leveled up, it was easy because it only went up by 32.
+* Now: When you levelup, it'll be a lot harder because the skill count and skill needed will be increased by 32 x the level the user is on. It's a lot harder so it'll be more grindy, since that's what it's all about.
+
+- Removed Clay from Composter - Why was that still there? :thonk:
+
+- Added customized messages when you've found either clay blocks or Bloody notes.
+
+- Added FireWorks upon join.
+
+- Added Title and Subtitles upon first join, and welcome back message!
+
+- You'll now get blindness when you join the lobby for a few moments. This is because it's loading your data before entering to the server.
+
+- You can no longer move until your data has been loaded.
+
+- Added Cosmetics to the lobby!
+
+- Fixed fireworks spawning in different location.
+
+You can see the preview of how Fireworks upon join, and title/subtitle messages in this video here:
+http://www.mediafire.com/file/ky7ewk6s8xe8taw/2020-11-13_12-48-51.mp4/file
+
+And yes, you do need to download it. If you really want to know what it's about, then just download the video yourself, it'll make a lot of sense after watching it!
+
+- Fixed crash when attempting to load data on certain lobby servers.
+
+- Fixed error: "Call to a member function broadcastPacketToViewers() on null" When a user joins, and then get's kicked due to not being whitelisted! This fix was to do with teleportation's being sent later on, or before the user had got kicked due to maintenance.
+
+- Added instanceof for $player to ensure the server doesn't receive an error message when the player get's kicked from the server.
