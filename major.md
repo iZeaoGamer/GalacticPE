@@ -912,3 +912,37 @@ And yes, you do need to download it. If you really want to know what it's about,
 - Fixed error: "Call to a member function broadcastPacketToViewers() on null" When a user joins, and then get's kicked due to not being whitelisted! This fix was to do with teleportation's being sent later on, or before the user had got kicked due to maintenance.
 
 - Added instanceof for $player to ensure the server doesn't receive an error message when the player get's kicked from the server.
+
+- Moved all Essential commands to the Network core.
+
+- Fixed /fly from causing internal server errors.
+
+- Fixed /realname from causing internal server errors.
+
+- Fixed /nickname from causing internal server errors if you have either YouTube rank or Famous rank.
+
+- You can now look at another user's skill stats on SkyBlock Adventure - FINALLY, this day has come! As of Network rebrand 2.0.0, you can now take a look at somebody else's skill stats. All you need to type, is /skills <player>. Want to check your own skill? Use /skills.
+
+Yes, <player> is optional, and should only be used to check somebody elses stats.
+
+- Fixed crash when attempting to leave the server whilst the fireworks start launching.
+
+- Fixed crash when joining a direct IP, which leads to server crashes.
+
+- Fixed ranks from not being saved: We've changed the way we store players data information. It'll now accurately state your username, rather than XUID/UUID. We've changed this for future API content, and future API researches. With XUID, it's a lot harder due to the differs the classes are. This means we could possibly implement offline player support in the future!
+
+- All ranks have been transferred by username, due to the reset (as XUID is no longer reliable) due to our current software, the proxy. Which prevents XUID a lot.
+
+- Mythic rank now receives /fly on ALL servers! How awesome is that?
+
+- Fixed getString() on null error when attempting to join a server with invalid session.
+
+- Invalid seasion now appears earlier on, thus preventing errors.
+
+- Added Offline permissions support!
+
+- Removed /removepermission due to issues. (May add back in the future).
+
+- Fixed crash when using /listpermission on an null permission list (permissions that do not exist).
+
+- Fixed all errors to do with joining on an invalid session.
