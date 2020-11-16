@@ -946,3 +946,11 @@ Yes, <player> is optional, and should only be used to check somebody elses stats
 - Fixed crash when using /listpermission on an null permission list (permissions that do not exist).
 
 - Fixed all errors to do with joining on an invalid session.
+
+- Re-worked getOnlinePlayers() in Network::class.
+
+- No longer relie on Network::$online context due to its unreliability. Instead, we retrieve all Logged in players as the user, and check if they're in vanish. The online counter in getOnlinePlayers() won't display vanished players, and is more code friendly. The user has to be out of vanish for the counter to display properly.
+
+- Fixed Max player slots from including the full max slots, including donator slots. Now, it'll only include player slots, and not donator slots - Keep in mind, we have a join() feature, where you can join when the server's full. That's what we mean by "donator" and "player" slots. Player slots are for normal / defaulted players only, which means the slots won't go up to the full extent, whereas donator slots, are the full slots, added to server.properties. You define what max player slot you want, and it'll take away 20 from that (In query, and in-game) on scoreboards now!
+
+- Finally fixed Scoreboard sometimes duplicating online players - This was fixed with a solution to do with how the code formats Network::$online, whereas now, it'll fetch all Logged in players, and check if they're vanished, and if it's an instanceof Player::class. That way, they'd have to be out of vanish to be displayed due to this new technic of code.
