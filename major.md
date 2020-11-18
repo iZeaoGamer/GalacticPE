@@ -960,7 +960,7 @@ Yes, <player> is optional, and should only be used to check somebody elses stats
 
 1. Custom Join - This option allows you to have atleast a join message. By default, this is disabled, meaning default players won't have a join message anymore. Once enabled, it'll set the join message for the donor player.
 
-2. Custom Join Message - This option can overwrite the first option, and the title says it all really - Allows you to write your own custom join message! It provides support for anti-advertisement, and anti-caps! That way, other players will not be able to abuse this system. I will add Anti-Cuss feature today or tomorrow! (Will remove this part once I've added it).
+2. Custom Join Message - This option can overwrite the first option, and the title says it all really - Allows you to write your own custom join message! It provides support for anti-advertisement, and anti-caps! That way, other players will not be able to abuse this system. Anti-Cuss filter has now been added to the join message!
 
 - You can no longer advertise in your join message!
 
