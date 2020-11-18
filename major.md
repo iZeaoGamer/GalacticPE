@@ -981,3 +981,9 @@ Yes, <player> is optional, and should only be used to check somebody elses stats
 - Fixed Custom Join toggle from constantly appearing as true, even if you are trying to toggle it to make it false!
 
 - Fixed " appearing for no reason in join messages for defaulted players.
+
+- Added Anti-Cussing filter to the join message!
+
+- Added 60 seconds cooldown to Join messages to prevent abuse.
+
+- Fixed being able to bypass the command cooldown.
