@@ -954,3 +954,30 @@ Yes, <player> is optional, and should only be used to check somebody elses stats
 - Fixed Max player slots from including the full max slots, including donator slots. Now, it'll only include player slots, and not donator slots - Keep in mind, we have a join() feature, where you can join when the server's full. That's what we mean by "donator" and "player" slots. Player slots are for normal / defaulted players only, which means the slots won't go up to the full extent, whereas donator slots, are the full slots, added to server.properties. You define what max player slot you want, and it'll take away 20 from that (In query, and in-game) on scoreboards now!
 
 - Finally fixed Scoreboard sometimes duplicating online players - This was fixed with a solution to do with how the code formats Network::$online, whereas now, it'll fetch all Logged in players, and check if they're vanished, and if it's an instanceof Player::class. That way, they'd have to be out of vanish to be displayed due to this new technic of code.
+
+- Added Brand new command: /profile. How this works:
+* When you type the command, a UI will open up. You can choose from two options (As of posting this).
+
+1. Custom Join - This option allows you to have atleast a join message. By default, this is disabled, meaning default players won't have a join message anymore. Once enabled, it'll set the join message for the donor player.
+
+2. Custom Join Message - This option can overwrite the first option, and the title says it all really - Allows you to write your own custom join message! It provides support for anti-advertisement, and anti-caps! That way, other players will not be able to abuse this system. I will add Anti-Cuss feature today or tomorrow! (Will remove this part once I've added it).
+
+- You can no longer advertise in your join message!
+
+- You can no longer use full-CAPS in your join message (Atleast 5+ letters = caps).
+
+- Fireworks is now a donator feature.
+
+- Fixed internal server error when opening the /profile UI.
+
+- Fixed issues raised to do with forms not opening properly.
+
+- Fixed issues raised to do with entering incorrect data to the forms.
+
+- Added Cross-server compatibility with /profile - Meaning your profile data will now sync across the network! You only need to change it once, and it'll display on ALL servers! How awesome is that? ;D (Also reduces FTP storage too).
+
+- Fixed Custom Join message from appearing as Blank.
+
+- Fixed Custom Join toggle from constantly appearing as true, even if you are trying to toggle it to make it false!
+
+- Fixed " appearing for no reason in join messages for defaulted players.
