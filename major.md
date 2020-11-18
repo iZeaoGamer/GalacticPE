@@ -987,3 +987,36 @@ Yes, <player> is optional, and should only be used to check somebody elses stats
 - Added 60 seconds cooldown to Join messages to prevent abuse.
 
 - Fixed being able to bypass the command cooldown.
+
+- Added floating text + Welcome messages to the network!
+
+- Added news floating texts to the lobbies!
+
+- Changed last seen's messages a bit. Here's what we've changed:
+* Renamed Online Time to Online Session - This is due to it being a lot easier to understand than before! Since usually, Online Time provides a name called "Online session", or "Total Session". But in this case, we use "Online Session".
+
+* Renamed Offline Time -> Last seen - We've done this to make things a lot more professional. Offline/Online time doesn't seem in professional contexts at all. With last seen, it'll now tell you when the user was last seen. This'll still work with offline timers, don't worry! All I did was rename the sections to a better, but more easier and understandable names.
+
+* Changed Online Session's zero second time message to "Cannot find Online Session for this player". Again, this is for professional reasons.
+
+* Changed Last seen's zero second timer to "just now". I've introduced this change so people know how long ago they were seen. If it's zero seconds since they were last seen, then it'll put "just now". I did play around with a few of those messages to ensure the rights of the network and our players.
+
+- Removed Quit message from SkyBlock.
+
+- Fixed SkyBlock's old join message from conflicting with the profile join message system.
+
+- Fireworks is now configurable in-game! All you need to do to enable it, is type /profile. Then select Fireworks. It's a click of a button! Just enable/disable it! When disabled, it will no longer use fireworks on join.
+
+- Added loading data messages to SkyBlock and OG OP Factions.
+
+- Fixed being blind forever, and then not removing the effects when you join SkyBlock or OG OP Factions.
+
+- Fixed not being able to move on SkyBlock and OG OP Factions. 
+
+- Added loaded data title messages for when you join SkyBlock or OG OP Factions.
+
+- Added fireworks to OG OP Factions and SkyBlock.
+
+- Resorted floating texts to prevent future issues.
+
+- Floating texts will now only go to that specific world, and not a different world if it's the same coordinates - This bug was an issue for some time now. Now fixed, and sorted. You'll only see it in the appropriate world now. 
