@@ -183,7 +183,7 @@ Here are the following updates, made to the server:
 
 - We have made it so our current servers will be online and available all the time, even if the MySQL host is offline. I've introduced this to ensure our servers do not go offline when players want to play.
 
-How does it work?
+## How does it work?
 So essentially, as you can see in the screenshots, there will be a error regarding the MySQL host being down. It'll also forward them the appropriate error, and will start to disable the plugin. When and if there's an MySQL host problem, it'll limit the network to do certain things, such as:
 
 - Ranks, and Permissions.
@@ -826,7 +826,7 @@ With this system adds the following:
 
 - Added new feature to SkyBlock: Conversions.
 
-How this works?
+## How this works?
 - You can now convert available items into better items. At the moment, we have one item conversion. Iron ingots to Hoppers. You can get Iron ingots by mining iron ore, which requires a certain skill level to mine iron ores. That way, it's more grindy - You actually receive iron ingots just by grinding your butt off! That's what a server should be like!!
 
 - Want to use all your iron ingots in almost one click? That's fine! Because with this new conversion update, you can now receive more hoppers. The more iron ingots you have, the more hoppers you'll receive, in just almost one click! That's just insane!
