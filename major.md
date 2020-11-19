@@ -1020,3 +1020,26 @@ Yes, <player> is optional, and should only be used to check somebody elses stats
 - Resorted floating texts to prevent future issues.
 
 - Floating texts will now only go to that specific world, and not a different world if it's the same coordinates - This bug was an issue for some time now. Now fixed, and sorted. You'll only see it in the appropriate world now. 
+
+- Added "Return to Lobby" NPC's to OG OP Factions, and SkyBlock Adventure.
+
+- Fixed NPC's appearing in other worlds (in the same coordinates).
+
+- Fixed crash when adding Entity Management.
+
+- Recoded scoreboard's, and moved them to the Network:: core. The lobby servers still have the old scoreboard plugin, and may not be removed until further notice due to BC.
+
+- Fixed interacting with NPC's acting like players, and would simply not respond to your hit/tap. 
+
+- Transferred SkyBlock Adventure to a brand new and better node!
+
+- Fixed skyblock failing to start concerns. This would be due to the ram/memory failing to comply. This was fixed with a transfer over to a new and better node.
+
+- Fixed crashes when joining using a direct IP, and would therefore disconnect before the message could be displayed. This was because of the Proxy ping. Since when you join using a direct IP, it doesn't recognize the proxy, and just thinks you've been transferred, therefore it disconnects you due to Proxy API's not working for backend servers, since they are allocated via the proxy its self, not the backend servers.
+
+- Removed old WorldGuard plugin due to the newer and upgraded version of it. This would've fixed issues to do with NPC interactions.
+
+- Cleaned-up scoreboards, recolored and reformatted scoreboards to prevent further issues. As you can see in the two screenshots, this'll be what it'll look like now.
+
+- Remove duplicated isGamemodeServer() functions from the Scoreboard::class, and use Network::getServerName() instead.
+
