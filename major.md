@@ -1043,3 +1043,16 @@ Yes, <player> is optional, and should only be used to check somebody elses stats
 
 - Remove duplicated isGamemodeServer() functions from the Scoreboard::class, and use Network::getServerName() instead.
 
+- We've made scoreboards 10x faster loading in the lobbies.
+
+- We're now using AsyncTask's over Closure tasks (For querying servers), which makes querying 10x faster.
+
+- Re-coded querying system to prevent more major lag issues.
+
+- Scoreboard now updates every 100 ticks (5 seconds) to prevent lag every second or two.
+
+- We now rely on code sided scoreboards, not config-sided.
+
+- Fixed an issue, where deleting a faction wouldn't update the scoreboard's faction information.
+
+- Reformatted scoreboards for SkyBlock Adventure and OG OP Factions to include blank lines for professional reasons.
