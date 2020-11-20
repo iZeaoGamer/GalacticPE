@@ -1056,3 +1056,15 @@ Yes, <player> is optional, and should only be used to check somebody elses stats
 - Fixed an issue, where deleting a faction wouldn't update the scoreboard's faction information.
 
 - Reformatted scoreboards for SkyBlock Adventure and OG OP Factions to include blank lines for professional reasons.
+
+- Scoreboards will now instantly spawn when you join a lobby server. Before, it would take a few seconds for it to appear.
+
+- Scoreboards that aren't loaded yet, will now state "Loading.." in light red color. This is so the server can load the scoreboard instantly without asking yourself why it doesn't display. 
+
+- Fixed crash onJoin() using scoreboards.
+
+- Fixed scoreboard updating visual bug, where it'd delay the updates between the "Servers" and "Lobbies" section to the querying section. Now, it'll update all of it automatically without delaying the updates between different lines.
+
+- Added $ sign to Balance: section on SkyBlock Adventure, and OG OP Factions.
+
+- Scoreboards for OG OP Factions and SkyBlock will now instantly spawn, instead of next scheduler.
