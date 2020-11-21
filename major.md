@@ -1068,3 +1068,30 @@ Yes, <player> is optional, and should only be used to check somebody elses stats
 - Added $ sign to Balance: section on SkyBlock Adventure, and OG OP Factions.
 
 - Scoreboards for OG OP Factions and SkyBlock will now instantly spawn, instead of next scheduler.
+
+- Add type hints to all Network::class functions.
+
+- Added new function to Network::class updateScoreboard(). This function allows basic loading statuses of scoreboards globally. There's a $lobby parameter, where if you're in the lobby, it'll use the lobbies scoreboard. If not, it'll detect that you're not on a lobby server. This is all automatic, meaning it'll automatically detect whether or not the server's a lobby without changing through various of codes and functions.
+
+- Added new static function to Network::class: isValidIP. This function checks whether or not the IP is valid.
+
+- Added new static function to Network::class: is is_valid_domain_name(). This function checks whether or not the domain is valid.
+
+- Added a brand new feature called "Particles status". How this works:
+
+So what particle statuses do, is the particles communicate with the server's status, and to check whether or not they're online. As you can see in the screenshot, there's a dark red, and a light green. As you could probably tell, Light green means the server's online, whereas dark red means the specific server is offline. It detects all this from a Slapper/NPC, and ports it to Particles.
+This is a very unique way to know, and to detect if you can't see the name properly (somehow). It's also useful for cool color particles.
+
+- Fixed crash when joining the lobbies.
+
+- Fixed major server freezing / crash bugs to do with Particles status.
+
+- Added Multi-server support to Particles status.
+
+- Fixed crash when trying to receive a faction's name that never existed.
+
+- Added new parameter: $loading to UpdateManager::updatePublicScoreboard().
+
+- Scoreboards will now spawn instantly on non lobby servers. It'll come up with the "Loading" scoreboard until the next scheduler kicks in.
+
+- Added new floating text, as previously stated in the first screenshot.
