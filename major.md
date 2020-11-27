@@ -1095,3 +1095,58 @@ This is a very unique way to know, and to detect if you can't see the name prope
 - Scoreboards will now spawn instantly on non lobby servers. It'll come up with the "Loading" scoreboard until the next scheduler kicks in.
 
 - Added new floating text, as previously stated in the first screenshot.
+
+- Added Core protect - Everything you need to know is in the screenshots listed here.
+
+## What you can do with coreprotect?
+- You can rollback any of the mis-built land. And no, if you do abuse this, you will instantly be demoted. This should only be used when:
+* If an xrayer destroys the build - We may allow you to use this command, but PLEASE do not overuse this command. Otherwise, consiquences may be upon you.
+
+* If the server's builds are destroyed by somebody, then we may be able to use this to rollback the time.
+
+- Want to restore the blocks data? Use /bcp restore.
+
+There are generally many more things you can do with this! If you'd like to know more information on what we have, then please take a look at the screenshots provided below. It really just about says everything.
+https://cdn.discordapp.com/attachments/700404144963452999/780835231560499241/CoreProtect2.PNG
+https://cdn.discordapp.com/attachments/700404144963452999/780835236761698334/CoreProtectFeatures1.PNG
+https://cdn.discordapp.com/attachments/700404144963452999/780835239546454047/CoreProtectCommands.PNG
+https://cdn.discordapp.com/attachments/700404144963452999/780835240976449578/AdvancedCmdCP.PNG
+https://cdn.discordapp.com/attachments/700404144963452999/780835243799740446/AdvancedCmdCP2.PNG
+https://cdn.discordapp.com/attachments/700404144963452999/780835244953174066/AdvancedCmdCP3.PNG
+
+- Vanishing's scoreboard now appears instantly, instead of next scheduler. 
+
+- We've (potentially) fixed skyblock's segmentation error. We think it was due to the outdated bin files. Though, we're still monitoring this behavior, we haven't fully tested this fix. We have tested it a few times, but can't be sure it's fully fixed yet. If the server doesn't stop as of tomorrow, then we know for 100% sure it's fixed. At the moment, it's just the testing phase.
+
+- Once again, fixed ranks data not saving, except this time, it's for newer players. All data should now save as expected.
+
+- Updated the store successfully! You can go to the link here: http://voidminerpocket.tebex.io/ - Yes, we have updated our package descriptions, which means more network features for donator ranks.
+
+- Updated the network to MCPE 1.16.100. (Also supports 1.16.100.1)
+
+- Use a null string also in join messages - This is to prevent future errors, so if the join message isn't specified, it'll now return null.
+
+- Fixed fireworks from giving errors.
+
+- Fixed incorrect textures data on the network.
+
+- The proxy does support 1.16.40 also, but our backend servers don't, meaning we can only support 1.16.100 (or 1.16.100.1)
+
+- Fixed SkyBlock onJoin() errors.
+
+- Fixed OG OP Factions onJoin() errors.
+
+- We're no longer using a custom fork. Though, we've managed to make some way out of this.
+
+- Changed the way shields are handled - We will fix the possibility of being able to hold a shield like you used to in the future.
+
+- Fixed /credits top from only going up to page 1, and not for any future pages.
+
+- Credits now use a MySQL Provider to ensure the greatness of the cross-servers compatibility.
+
+- Added Credits as currencies - You can get credits from becoming f top / is top value, which you can use to buy perks using Credits.
+
+- Added credits shop! To open the shop, use /creditshop.
+
+- Fixed /credits balance not displaying as an usage.
+https://cdn.discordapp.com/attachments/700404144963452999/781671393934049339/CreditShop2.PNG
