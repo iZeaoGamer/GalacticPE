@@ -1,4 +1,4 @@
-## v2.0.1: Minor
+## v2.0.2: Minor
 
 ## SkyBlock Adventure
 
