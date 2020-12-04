@@ -30,6 +30,13 @@
 
 - Blocks that are breakable in /mines will now auto generate again - We had this before, but got removed due to a lot of bugs - We've successfully brought it back, better than ever!
 
+- Changed the way item teleportation works.
+
+- Items that fall from your island will now teleport to your position, rather than at island spawn point. This is because of issues previously, where item teleportation would only work for island leader / the first user online.
+
+- Fixed crash when dropping items.
+
+- Use PlayerDeopItem event more reliably than using task handlers. Yes, we are trying to use events more often, rather than using task handlers.
 
 ## Network / Globally
 
