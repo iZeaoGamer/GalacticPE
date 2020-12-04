@@ -36,7 +36,7 @@
 
 - Fixed crash when dropping items.
 
-- Use PlayerDeopItem event more reliably than using task handlers. Yes, we are trying to use events more often, rather than using task handlers.
+- Use PlayerDropItem event more reliably than using task handlers. Yes, we are trying to use events more often, rather than using task handlers.
 
 ## Network / Globally
 
