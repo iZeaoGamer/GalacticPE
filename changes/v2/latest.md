@@ -45,3 +45,12 @@
 - Gamemode scoreboards will now be relied on Events, instead of per scheduler. This is to reduce CPU overload as well as preventing any current lag.
 
 - Scoreboards will now update whenever you leave/join, so it updates without the need of a scheduler task.
+
+- Fixed crash when setting ranks.
+
+- Added more typehints to Network::class functions.
+
+- Fixed crash when executing /tpa
+
+- Added new functions: matchPlayer(), and matchNickname() to Network::class.
+
