@@ -38,6 +38,12 @@
 
 - Use PlayerDropItem event more reliably than using task handlers. Yes, we are trying to use events more often, rather than using task handlers.
 
+- Fixed crash when breaking things like SugarCanes in /farms.
+
+- Fixed being able to grief, interact, and place blocks in /farms - MAJOR BUG, which is now fixed!
+
+- Fixed crash when dropping items from your island, then quickly logging off. 
+
 ## Network / Globally
 
 - Completely re-coded Scoreboards!
