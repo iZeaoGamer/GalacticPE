@@ -1,3 +1,5 @@
-# VoidMinerPE-MCPE
+# LotusPE
 
-The biggest update we've ever encountered on the network.. The network rebrand 2.0.0.. This changes everything..
+The new merged server, LotusPE. Owned by Zeao, and Sum.
+
+This server will bring everyone joy, filled with custom-made features, becoming the #1 best OP Factions/Prisons server!
