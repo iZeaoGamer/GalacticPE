@@ -1,6 +1,6 @@
 ## GalacticPE Version 3
 
-## This version is a major version, and includes a lot of changes. One of the changes include us being merged to LotusPE.
+## This version is a major version, and includes a lot of changes.
 ## GalacticPE, is a upcoming network, supporting SkyBlock, Factions, and Prisons, which has custom features that you might not see on MCPE before.
 
 ## This update is huge due to that, and includes a lot of improvements, stability fixes, and scoreboard changes, query fixes, tags, and so much more!
