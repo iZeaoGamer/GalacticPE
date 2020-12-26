@@ -7,22 +7,6 @@
 
 ## Version: v3.0.0 / What's new?
 
-- Updated Scoreboard to add updated plugins, such as:
-
-* Tags
-
-* Rank 
-
-* Faction updated
-
-- Added Max Power to Pwr section.
-
-- Updated tags to make it more professional!
-
-- Added more tags! 50+ tags included!
-
-- Added tags shop! You can use /tags for more information.
-
 - Added colored rank name, rather than just the plain rank name in scoreboards.
 
 - Updated max player list to exclude Donor slots via scoreboards.
