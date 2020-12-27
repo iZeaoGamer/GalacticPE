@@ -68,3 +68,31 @@ When you type /bm on, this means you can bypass area protections. You can break,
 - We're now using a completely, updated, and brand new worldedit plugin that somewhat still works! 
 
 - Added a new permission node: *. This permission node is very Overpowering. This permission will allow you to gain access to every single command without operator. This permission also acts like operator. This is globally, and this is very useful for if you don't want to op somebody on all servers.
+
+- Added 2 new Staff items to vanish mode!
+
+1. Staff Chat - You can toggle on/off staff chat, just by using items, or by typing /sc.
+
+2. Chest - This item is place able, and will allow you to catch xray hackers! How this esentially works, is you can place this chest without it making a sound. It'll silently place a chest, which will have randomised loot. This loot can be used by players, which then we can decide whether or not they are xraying. It is really best to use this in mines (Because of course, xrayers love mining!) You can also break the chest. Once broken, it won't make a sound, and loot won't drop with the broken chest due to exploit reasons.
+
+- Fixed staff chat exploit, where other players could see your white text message, acting as if the chat message were set to default, but also made it into staff chat.
+
+- Added new text channel: #staff-chat. This chat will have all staff chat related messages from in-game to that channel.
+
+- Cleaned-up player chat messages, which fixed a few other technical problems.
+
+- Upon breaking a chest whilst in vanish, it'll now become silent!
+
+- Picking up items whilst in vanish will no longer disappear, and then closes the entities within that world. It'll just not let you pick it up! We've done this change to ensure less duplications, and item loses.
+
+- Added new command: /sc
+
+- Fixed /spawn from not teleporting you to spawn correctly.
+
+- Throw an error message if the Invsee feature is currently unavailable.
+
+- Fixed /nick from causing future errors.
+
+- /nick no longer relies on ranks, so even if the database is down, the nicknames won't cause an error.
+
+- Fixed staff chat causing wrong error directions (ON/OFF) when used.
