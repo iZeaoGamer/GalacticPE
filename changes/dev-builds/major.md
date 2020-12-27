@@ -96,3 +96,15 @@ When you type /bm on, this means you can bypass area protections. You can break,
 - /nick no longer relies on ranks, so even if the database is down, the nicknames won't cause an error.
 
 - Fixed staff chat causing wrong error directions (ON/OFF) when used.
+
+- Fixed join/quit messages occurring whilst in vanish, and if left whilst in vanish! Now, it won't pop up a join/quit message if you leave whilst in vanish! This was due to the join/quit messages occurring in the wrong moments.
+
+- You can no longer use /tp, and /teleport whilst in vanish! This is to prevent cheating!
+
+- Fixed being able to place blocks whilst in vanish! (This includes Staff items like Staff Chat (Concrete) being place-able.
+
+- Moved setVanishTime() and getVanishTime() to Player::class. This is because it's more preferred that way than using other classes.
+
+- Quit/Join messages will no longer display if you're in vanish, and you leave the server! - That way, nobody will know if you're on or not. This is a very great way to know, and as far as coding goes, there's absolutely no way anybody can find out if you're online or not!
+
+- This update is most probably the biggest (Query) wise update ever. With /list hidden, voting site becoming hidden, server lists, and so much more! There's no possible way somebody can find out if you're online whilst in vanish!
