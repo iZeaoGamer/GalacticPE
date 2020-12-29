@@ -51,7 +51,7 @@
 4. InventorySee - You can check for other player's inventories, by hitting them! Of course though, this does come with availability of what you can and want to do. Depending whichever mode / option you select, you can open their player inventory or their ender chest inventory.
 
 5. Inventory Type - By default, it's set to Player Inventory. If turned to Player Inventory, once damaged a player, it'll open their personal inventory (Player Inventory). If turned to Ender Chest Inventory, when you next damage a target player, you can see their ender chest inventory.
-[17:42]
+
 - Fixed Ice item from being place-able when in vanish.
 
 - We've finally created our own area/world protection plugin and messages!
