@@ -108,3 +108,20 @@ When you type /bm on, this means you can bypass area protections. You can break,
 - Quit/Join messages will no longer display if you're in vanish, and you leave the server! - That way, nobody will know if you're on or not. This is a very great way to know, and as far as coding goes, there's absolutely no way anybody can find out if you're online or not!
 
 - This update is most probably the biggest (Query) wise update ever. With /list hidden, voting site becoming hidden, server lists, and so much more! There's no possible way somebody can find out if you're online whilst in vanish!
+
+- Completely revamped, and recoded Bans system!
+
+- Added /ban. This command will show everything required, including the following:
+* Ban information
+
+* Ban searches
+
+* Banning a player.
+
+* Finding a banned player (AKA checking history).
+
+* Remove, and confirm a ban!
+
+- Class reasons are required reasons, instead of being able to enter an empty reason message.
+
+- Make perm bans a "Forever" until ban date if expires is set to false.
