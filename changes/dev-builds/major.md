@@ -125,3 +125,35 @@ When you type /bm on, this means you can bypass area protections. You can break,
 - Class reasons are required reasons, instead of being able to enter an empty reason message.
 
 - Make perm bans a "Forever" until ban date if expires is set to false.
+
+- Added new punishment type: Mutes!
+
+- You can now mute a player with the new punishment system. (TODO; Work on warns next!)
+
+- Added /mutelist
+
+- Many changes, and huge bug fixes to do with /banlist not working properly.
+
+- You can now check a muted/banned player two ways!
+
+1. Check using /mutelist <player> for the given muted player or /banlist <player> for the given banned player.
+
+2. Check using /mutelist for all the muted players or /banlist for all the banned players.
+
+- Change Player not found UI from Friend Manager to User Management for more professional UI's.
+
+- You can no longer execute blocked commands whilst being muted. We will do much more than this in the future, such as: Disallowing players to write certain things on signs whilst muted, or nothing at all if muted.
+
+- Added new plugin events: UserCommandEvent, and UserChatEvent.
+
+* UserCommandEvent: Activates if a player uses a command that's blocked.
+
+* UserChatEvent: Activates if a player uses the chat whilst muted.
+
+- Fixed crash when executing /mute.
+
+- Fixed crash when typing in chat.
+
+- Fixed server crash when the database is back online, and you chat/leave/execute a command, it'll kick you out of the game, cause an error, and crash the server. We've added a way so this no longer happens. Which basically is once the database is back online, it'll fetch for all online players, and will reload CustomPlayer::class again.
+
+- Added [item], where you can showyour items in chat. (Inventory support will be coming soon).
