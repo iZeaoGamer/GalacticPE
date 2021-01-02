@@ -157,3 +157,29 @@ When you type /bm on, this means you can bypass area protections. You can break,
 - Fixed server crash when the database is back online, and you chat/leave/execute a command, it'll kick you out of the game, cause an error, and crash the server. We've added a way so this no longer happens. Which basically is once the database is back online, it'll fetch for all online players, and will reload CustomPlayer::class again.
 
 - Added [item], where you can showyour items in chat. (Inventory support will be coming soon).
+
+- Start work on IP Bans / IP Muted. (Not yet working)
+
+- You can now modify user's ban/Mute! You can type it in two ways:
+
+1. Use /mutelist -> Select player -> Modify mute or /banlist -> Select player -> Modify ban
+
+2. Use /mutelist <player> -> Modify Mute or /banlist <player> -> Modify Ban.
+
+- All bans modifications now update, work, and save properly!
+
+- All mutes modifications now update, work, and save properly!
+
+- You can now use Time formatting in another way!
+
+* New way of adding time, is instead of typing for example, 1 day, you can type the Day, the Date, and the time. Though, this would be recommended and updated through Modifying a player's ban/mute! All you'd need to do, is update the day, date, and time of the mute/ban! It's recommended though to do the shortened way; <time> Shortened, where you can display how long a user's banned for via English textual datetime description. That's basically time formatting such as 1 day, or 5 days, 5 hours, 5 minutes, 1 second. Formatting a local date/time is dates you enter like Wed Jan 2 10:54:45 2021, which is the longer date/time formatting, which you use for modifying a player's mute/ban!
+
+- You can now delete another player's mute/ban! You can do this in two ways!
+
+1. Type /mutelist -> Select player -> Delete Mute or /banlist -> Select player -> Delete ban.
+
+2. Type /mutelist <player> -> Delete mute or /banlist <player> -> Delete ban.
+
+- Added more error message UI's, rather than debug messages.
+
+- Updated Time invalid error to display in UI.
