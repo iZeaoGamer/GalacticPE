@@ -183,3 +183,29 @@ When you type /bm on, this means you can bypass area protections. You can break,
 - Added more error message UI's, rather than debug messages.
 
 - Updated Time invalid error to display in UI.
+
+- IP Bans / Mutes have now been added! We are looking for any other possible way of actually bypassing IP Bans / Mutes (Excluding VPN's for now).
+
+- Fixed staff chat from being made public when talking in the staff chat. Since before, it'd also display staff chat messages publicly due to a chat event not being cancelled correctly.
+
+- Tweaked Galactic Energy a ton!
+
+- If you have more than the required energy amount, it'll now update to the correct energy level. Before, it'd update, and reset Energy to zero, and add +1 to Energy level for the given item. This is more appropriately used for future implementations (such as Lootboxes, GC's, etc!).
+
+- Fixed a bug, where tools updating automatically would send to an incorrect item, which would only occur if there's an item in your inventory with no custom name. Now, it'll only update the item in your hand (if no custom name was set), and not your contents in your inventory (Basically, the item that has no custom name must be in your hand for it to update now). 
+
+- Fixed a major bug, where you can combine other things that aren't tools. Like dyes, emeralds, basically any item. Now, it'll only combine tools. 
+
+- Fixed crash when updating your hand.
+
+- You shouldn't log out whilst energy is going to your item. Depending on how much energy you are currently adding to your item using the energy item, it could take a while. If it's low amounts, then it should take less than a milisecond. But again, if it's a high amount, it'll be longer. Just don't log out or you'll lose the upcoming energy that was being added. No, you won't lose all of it, just the ones you  logged out before it appeared into your tool. Unfortunately there isn't an actual fix for this.
+
+- You can no longer join a server if you're ip banned. The only way of bypassing this, would be to use a VPN. But we may/may not implement an Anti VPN system. Really depends on if we can get one.
+
+- You can no longer chat on a server if you're ip muted. The only way of bypassing this, would be to use a VPN. But we may/may not implement an Anti VPN system. Really depends on if we can get one.
+
+- Fixed onEnable() crash when registering all users to the User management database (Yes, this was a data loss crash), meaning all bans/mutes would be reset after restart.
+
+- Fixed mr-broken user management registeration problems.
+
+- Fixed crash when typing /gmc, /gms, /gma.
