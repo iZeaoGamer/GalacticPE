@@ -209,3 +209,33 @@ When you type /bm on, this means you can bypass area protections. You can break,
 - Fixed mr-broken user management registeration problems.
 
 - Fixed crash when typing /gmc, /gms, /gma.
+
+- Added new warns system!
+
+- Warns are now calculated properly!
+
+- Fixed warns data loss crash upon onEnable() state.
+
+- Added Trainee role to the public discord server.
+
+- Added brand new command: /fixconn - This command will allow operators (Me specifically) to attempt to fix the database connection (If broken). It'll also display the results, and whether or not it was a successful connection. If unsuccessful, it will display an error message along with the error code. Please note this command does not always fix connections. It's an attempt, meaning it'll try as much as possible to fix the database connection.
+
+- Fixed staff chat bug, where you wouldn't be able to talk normally if database is offline, and you're in staff chat. Now, it'll automatically put you into global chat (Basically default chat in-game) until the database is back online again.
+
+- Once warned 3+ times, it'll automatically kick you from the server, and resets your minimum warning points.
+
+- New warning points system. How this works:
+
+* There is minimum warnings, and total warnings. Minimum warnings is your warning points. That'll reset every 3+ times, and will reset those warning points, whereas total warning points, is where those warnings will never reset, and will encounter as your whole record of warns. This is so we know if you've been warned before.
+
+- You can now use /vanish without the database being online. Basically meaning you can use vanish freely no matter if the database is online or offline.
+
+- Fixed crash when warning a player.
+
+- Fixed crash when deleting a player's warn.
+
+- Fixed crash when deleting all of a player's warn.
+
+- Fixed a bug, where permissions wouldn't update properly unless you logged out and logged back in again. (Basically re-logging). Yes, this has been an issue for some time which should now be fixed. (Untested).
+
+
