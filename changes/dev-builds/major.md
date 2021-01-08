@@ -238,4 +238,26 @@ When you type /bm on, this means you can bypass area protections. You can break,
 
 - Fixed a bug, where permissions wouldn't update properly unless you logged out and logged back in again. (Basically re-logging). Yes, this has been an issue for some time which should now be fixed. (Untested).
 
+- Energy percentages are now more accurate!
 
+- Percentages before going to the next Energy level are now only up to 100%, just like Cosmic Java! How awesome is that!??
+
+- Invsee has now been added to the Server!
+
+- We've changed the port number for OP Prisons due to complications! The port is now 25574, so save that port into your server listing. Also, please share this to everyone as the port was changed. Yes, the IP is still the same. It's only the port number which had changed.
+
+- Fixed a duplication word glitch: "muted" when muted from the server. It'll now only display the "You are muted" thing once, instead of saying "You are muted muted.".
+
+- Freezing a player now properly works!
+
+- Fixed a bug with freezing, where it'd display the same message as if you were frozen, even if you were being unfrozen. You could still move by then, but the message would duplicate, and would act as if you were just muted by a staff member.
+
+- You will now get perm banned automatically if you log out whilst frozen!
+
+- The "banned by" section of the perm ban will now display as "Console" when logged out whilst frozen!
+
+- Fixed not being able to open Player's inventory and Ender chest's inventory of a player's Ender chest.
+
+- Energy percentage now divides the amount by 100. That way, it'll convert this into how many energy you have, out of the max. The max and current will also be divided to so you know the percentage amount (max: 100%) out of the maximum energy required to go to the next level!
+
+- Fixed a bug, where if you logged out whilst frozen, it wouldn't ban you. This was because we needed to update the ban API to the new punishment API we have implemented.
