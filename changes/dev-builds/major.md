@@ -261,3 +261,23 @@ When you type /bm on, this means you can bypass area protections. You can break,
 - Energy percentage now divides the amount by 100. That way, it'll convert this into how many energy you have, out of the max. The max and current will also be divided to so you know the percentage amount (max: 100%) out of the maximum energy required to go to the next level!
 
 - Fixed a bug, where if you logged out whilst frozen, it wouldn't ban you. This was because we needed to update the ban API to the new punishment API we have implemented.
+
+- Databases now refresh 10x faster than before!
+
+- For now, we're no longer using #network status channel, to display the server's status. We will definitely add this back soon! We may add this back in the upcoming updates! I just thought I'd test it without the messages contexed to the channel and see if there's any other concurrent bugs.
+
+- We're now using AsyncTask over Timer tasks (Also known as schedulers). AsyncTask is 10x faster, and the reason why it's 10x faster, is because when the database refreshes, or updates, reloads, and inserts a row or value, it won't put the server into restraint. This means databases and everything requiring for databases won't cause lag to the server, meaning better performance and more reliable (lag wise).
+
+- Fixed crash when attempting to join the server.
+
+- Added new error messages for database connectivity problems.
+
+- You can now: Set rank's, set a user's permission, and things like warnings's without lagging the server or other players, causing this to lag the server.
+
+- Database refresh is now 10x faster. (Again, I'm not sure if it's due to the network status temporarily removal, but we're working on bringing this back, better than ever!
+
+- Use MySQLProvider::$connected to isDatabaseConnected() function. Returns true if connected, returns false if not.
+
+- Added staff commands, and player commands channels!
+
+- You can now check out all player commands, rather just staff
