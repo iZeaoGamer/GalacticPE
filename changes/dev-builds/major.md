@@ -281,3 +281,37 @@ When you type /bm on, this means you can bypass area protections. You can break,
 - Added staff commands, and player commands channels!
 
 - You can now check out all player commands, rather just staff
+
+- Fixed staff chat from not working properly. (Once again).
+
+- You can now speak properly in staff chat, and it'll enter your message directly in-game!
+
+- Added new channel: #commands. This channel is like staff commands, but for all player commands.
+
+- Re-coded GalacticPE's discord server, removed useless channels, and improved on less channels, but more efficient. Big thanks to Ducky for this change!
+
+- Fixed crash when modifying a user's warn.
+
+- Removed Store Credits (Old plugin) from GalacticPE. This was a older feature on VoidMinerPE, where you could buy things using store credits. We may replace something in the future similar to this!
+
+- User permissions will now load, and work without having to log off, and log back on again. (This was because I forgot some virtual part of code required for this).
+
+- You can now delete a chosen amount of warns.
+
+- Every Database cache will no longer lag the server.
+
+- Fixed server freezing from occurring on weird times.
+
+- The server IP should now be working, alongside the port! You can use the new port: 25574 with the IP: prisons.galacticpe.ml.
+
+- Fixed crash when kicking the warned user for being warned too many times.
+
+- Fixed wrong error coding message when warned a player. It'd say "muted", instead of "warned".
+
+- Added new query tasks, which extends AsyncQuery class.
+
+- Fixed bug, where it'd say the user does not exist even if you entered it correctly in /addpermission command.
+
+- Fixed crash when using /addpermission.
+
+- Fixed wrong error coding with /addpermission.
