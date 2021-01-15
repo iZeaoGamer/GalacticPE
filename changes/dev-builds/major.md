@@ -315,3 +315,27 @@ When you type /bm on, this means you can bypass area protections. You can break,
 - Fixed crash when using /addpermission.
 
 - Fixed wrong error coding with /addpermission.
+
+- Fixed crash when database was offline.
+
+- Fixed crash when attempting to join a server that has the database set to offline.
+
+- Database is no longer required for commands to appear in appropriate discord channels.
+
+- Fixed crash when warning a user.
+
+- Fixed crash when muting a user.
+
+- Fixed crash when banning a user.
+
+- Fixed crash when warning a player, but wasn't able to due to the database becoming offline.
+
+- Added "Loading" messages when warning a user. This is because warnings have a longer loading time than ban and mutes are due to Warnings being on the database system, whereas Bans and mutes aren't.
+
+- Fixed crash when loading warns, but wasn't able to due to database issues.
+
+- Fixed wrong message coding, relating to "Being muted", turning into "Being warned". Same may have gone for Bans also. Now, they're more appropriately, but correct message coding.
+
+- Fixed crash when trying to join a server.
+
+- Fixed crash when typing in chat, and if database hasn't yet refreshed yet. This error could potentially happen when the database has issues, after it was recently refreshed, within a good state of mind.
