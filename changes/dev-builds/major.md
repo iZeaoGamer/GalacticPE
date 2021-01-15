@@ -306,7 +306,7 @@ When you type /bm on, this means you can bypass area protections. You can break,
 
 - Fixed crash when kicking the warned user for being warned too many times.
 
-- Fixed wrong error coding message when warned a player. It'd say "muted", instead of "warned".
+- Fixed wrong error coding message when warning a player. It'd say "muted", instead of "warned".
 
 - Added new query tasks, which extends AsyncQuery class.
 
