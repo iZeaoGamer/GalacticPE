@@ -339,3 +339,71 @@ When you type /bm on, this means you can bypass area protections. You can break,
 - Fixed crash when trying to join a server.
 
 - Fixed crash when typing in chat, and if database hasn't yet refreshed yet. This error could potentially happen when the database has issues, after it was recently refreshed, within a good state of mind.
+
+- Completely re-coded Custom enchants system, and its code style!
+
+- All custom enchantments classes now extend a certain class type.
+
+- Completely re-written Enchantments::classes, making it easier and readable than previously.
+
+- We no longer use callable to retrieve Event::classes within each enchantment class.
+
+-  All onBlockBreak() events are now relied and extends RecursiveEnchant. This is so there isn't any future errors regarding blockBreak() lag with custom enchants.
+
+- Added new function: safeReact() to RecursiveEnchantment's classes which extend RecursiveEnchant.
+
+- Lucky enchantment now works!
+
+- We've completely rewritten how top tier enchantment works! We've also changed and renamed the top rarity from Executive to Heroic. Big thanks to Ducky for this explaination!
+
+- All heroic enchants now require a certain enchant level! Heroic enchantments basically allow you to upgrade your current enchant to make it even better. It requires a specific enchantment along with the level it states in its description.
+
+- Once a heroic has been enchanted, and the requirements for heroic's upgrade has been reached, it'll now remove the Required enchantment, and will upgrade to Heroic tier, which will have better chances along with higher amounts of it activating.
+
+- PowerBall enchantment now fires at a certain block! Yes, we will make this only ores very soon! (It also has a cooldown too!)
+
+- Fixed PowerBall enchantment from becoming inaccurate 
+ when fired (Aiming wise).
+
+- Added a enchantment limit. By default, it's 10. But the higher rank you have, the more the limit will increase.
+
+- Added new feature: Enchantment Orbs! How this works:
+
+- So by default, Enchantment limit is set to 10 or whatever your desired rank is. You can receive Enchantment orbs as you progress through-
+
+- Events, GC's, Lootboxes, cc's, and more!
+
+- Fixed Enchantment slots displaying from duplicating when you apply it onto an item.
+
+- Enchantment Orb types:
+* There are currently 3 Enchantment orb types!
+* Here are the current types we offer:
+
+1. Pickaxe
+
+2. Armor
+
+3. Weapon
+
+- Completely rewritten how event classes work! This means we no longer use callable for events to receive the enchantment on that specific event.
+
+- Fixed crash when mining blocks.
+
+- Fixed crash when taking damage (Most of it would've been after you had health boost, and once it get's taken away, this bug would've occurred).
+
+- Added Enchantment books (Success + Fail rate)! How this works:
+
+* At this stage, we're not sure how you can obtain them! But this will be revealed once everything's been added and sorted out! When you receive Enchantment books, there's a randomised success rate, and a destroy rate. (AKA Failure rate). You will want the success rate to be higher than failure rate for a higher chance of adding the enchant to your item.
+If the destroy rate occurs, then it will get rid of the item you tried to enchant as well as the enchantment book! So be careful!
+
+- Fixed crash when obtaining The Enchantment orb item!
+
+- We've now put all Enchantments along with their rarities in order! From top being the best rarity, to the bottom, the worst Rarity. This is so all enchants are less messy, and more in order than anything).
+
+- Added Flame particles if the enchantment succeeds and adds the enchantment to the item.
+
+- Added Health to Player's heads!
+
+- Shatter explosions are now less OP! This was because before, shatter would explode to a further radius! But now, we're checking, and making sure the shatter won't be as OP as before.
+
+- Eternal Luck's blocking from proc is now fixed! It should now block others from proccing enchantments of other player's! (This has been untested).
