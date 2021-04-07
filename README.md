@@ -1,5 +1,3 @@
-# GalacticPE
+## NEW PAGE
 
-The new upcoming network featuring SkyBlock, Factions, and Prisons! Coming soon!
-
-This server will bring everyone joy, filled with custom-made features, becoming the #1 best network offering Factions, SkyBlock, and Prisons!
+## [Click here to be directed to our new page](https://github.com/iZeaoGamer/VirtualPE)
